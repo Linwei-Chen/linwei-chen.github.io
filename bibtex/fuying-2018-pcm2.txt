@@ -1,0 +1,9 @@
+@inproceedings{zhang2018gpu,
+  title={Gpu assisted towards real-time reconstruction for dual-camera compressive hyperspectral imaging},
+  author={Zhang, Shipeng and Wang, Lizhi and Fu, Ying and Huang, Hua},
+  booktitle={Pacific Rim Conference on Multimedia},
+  pages={711-720},
+  year={2018},
+  organization={Springer}
+}
+

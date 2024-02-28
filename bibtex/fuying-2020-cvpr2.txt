@@ -1,0 +1,7 @@
+@inproceedings{wang2020dnu,
+  title={Dnu: Deep non-local unrolling for computational spectral imaging},
+  author={Wang, Lizhi and Sun, Chen and Zhang, Maoqing and Fu, Ying and Huang, Hua},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1661-1671},
+  year={2020}
+}

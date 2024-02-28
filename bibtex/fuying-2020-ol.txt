@@ -1,0 +1,9 @@
+@article{fuying-2020-ol,
+title={Illumination modulation for reflective and fluorescent separation.},
+author={Fu, Ying and Zou, Yunhao and Bian, Liheng and Guo, Yuxiang and Huang, Hua},
+journal={Optics Letters},
+volume={45},
+number={5},
+pages={1120--1123},
+year={2020}}
+    

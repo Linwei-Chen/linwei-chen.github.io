@@ -1,0 +1,9 @@
+@article{fuying-2021-neurocomputing,
+  title={Residual scale attention network for arbitrary scale image super-resolution},
+  author={Fu, Ying and Chen, Jian and Zhang, Tao and Lin, Yonggang},
+  journal={Neurocomputing},
+  volume={427},
+  pages={201--211},
+  year={2021},
+  publisher={Elsevier}
+}

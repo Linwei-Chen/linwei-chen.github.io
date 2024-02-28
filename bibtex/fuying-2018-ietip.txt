@@ -1,0 +1,10 @@
+@article{lin2018hyperspectral,
+  title={Hyperspectral image super-resolution under misaligned hybrid camera system},
+  author={Lin, Yonggang and Zheng, Yongrong and Fu, Ying and Huang, Hua},
+  journal={IET Image Processing},
+  volume={12},
+  number={10},
+  pages={1824--1831},
+  year={2018},
+  publisher={IET}
+}

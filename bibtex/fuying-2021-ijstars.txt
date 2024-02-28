@@ -1,0 +1,9 @@
+@article{fu2021bidirectional,
+  title={Bidirectional 3d quasi-recurrent neural network for hyperspectral image super-resolution},
+  author={Fu, Ying and Liang, Zhiyuan and You, Shaodi},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume={14},
+  pages={2674--2688},
+  year={2021},
+  publisher={IEEE}
+}

@@ -1,0 +1,7 @@
+@inproceedings{zou2023rawhdr,
+  title={RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image},
+  author={Zou, Yunhao and Yan, Chenggang and Fu, Ying},
+  booktitle={Proc. of International Conference on Computer Vision (ICCV)},
+  pages={12334--12344},
+  year={2023}
+}

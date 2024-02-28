@@ -1,0 +1,8 @@
+@INPROCEEDINGS{fuying-2017-ijcv,
+  author={Y. {Fu} and A. {Lam} and I. {Sato} and Y. {Sato}},
+  booktitle={2015 IEEE International Conference on Computer Vision (ICCV)}, 
+  title={Adaptive Spatial-Spectral Dictionary Learning for Hyperspectral Image Denoising}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={343-351},}

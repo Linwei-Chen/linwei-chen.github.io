@@ -1,0 +1,9 @@
+@ARTICLE{fuying-2022-tmm,
+  author={Fu, Ying and Wang, Zichun and Zhang, Tao and Zhang, Jun},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Low-light Raw Video Denoising with a High-quality Realistic Motion Dataset}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TMM.2022.3233247}}

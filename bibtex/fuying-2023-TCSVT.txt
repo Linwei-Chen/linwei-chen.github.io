@@ -1,0 +1,9 @@
+@ARTICLE{10239166,
+  author={Fu, Ying and Hong, Yang and Zou, Yunhao and Liu, Qiankun and Zhang, Yiming and Liu, Ning and Yan, Chenggang},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Raw Image Based Over-Exposure Correction Using Channel-Guidance Strategy}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2023.3311766}}

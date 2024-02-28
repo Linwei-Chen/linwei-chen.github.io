@@ -1,0 +1,9 @@
+@article{huang2019image,
+  title={Image restoration from patch-based compressed sensing measurement},
+  author={Huang, Hua and Nie, Guangtao and Zheng, Yinqiang and Fu, Ying},
+  journal={Neurocomputing},
+  volume={340},
+  pages={145--157},
+  year={2019},
+  publisher={Elsevier}
+}

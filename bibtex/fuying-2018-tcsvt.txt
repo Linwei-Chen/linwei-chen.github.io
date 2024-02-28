@@ -1,0 +1,8 @@
+@ARTICLE{fuying-2018-tcsvt,
+  author={S. {Zhang} and H. {Huang} and Y. {Fu}},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Fast Parallel Implementation of Dual-Camera Compressive Hyperspectral Imaging System}, 
+  year={2019},
+  volume={29},
+  number={11},
+  pages={3404-3414},}

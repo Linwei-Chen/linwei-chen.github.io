@@ -1,0 +1,1024 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>CCF Conference Deadlines</title>
+	<!-- 引入css样式文件 -->
+	<!-- Bootstrap Core CSS -->
+	<link href="https://ccfddl.top:443/css/bootstrap2.min.css" rel="stylesheet" />
+	<!-- MetisMenu CSS -->
+	<link href="https://ccfddl.top:443/css/metisMenu.min.css" rel="stylesheet" />
+	<!-- DataTables CSS -->
+	<link href="https://ccfddl.top:443/css/dataTables.bootstrap.css" rel="stylesheet" />
+	<!-- Custom CSS -->
+	<link href="https://ccfddl.top:443/css/sb-admin-3.css" rel="stylesheet" />
+	<!-- Custom Fonts -->
+	<link href="https://ccfddl.top:443/css/font-awesome1.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://ccfddl.top:443/css/boot1.css" rel="stylesheet" type="text/css" />
+</head>
+<base target = "_blank">
+<body>
+<div id="wrapper" style="background-color: #ffffff;position:relative;min-height: 100%;padding-bottom: 5px" >
+	<!-- 导航栏部分 -->
+	<nav class="navbar navbar-default navbar-static-top" role="navigation"
+		 style="margin-bottom: 0">
+
+    <!-- 会议列表  start-->
+	<div  style="padding: 0 50px" >
+		<div class="row">
+			<div class="col-lg-12" style="height: 140px">
+				<h1 class="page-header" style="display: inline;position: absolute;bottom:0;">CCF Conference Deadlines</h1>
+				<!-- <img src="../../images/ccfddl.jpg" style="width: 120px;height: 120px;float: right;margin-right: 50px;position:absolute; bottom: 10px;right: 100px;"> -->
+			</div>
+			<!-- /.col-lg-12 -->
+		</div>
+		<!-- /.row -->
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="form-inline" >
+					<div class="form-group">
+<label for="meetingName">会议：</label>
+						<input type="text" class="form-control" id="meetingName"
+							   value="" name="name" />
+					</div>
+					<div class="form-group">
+						<label for="typeFrom">&nbsp;&nbsp;类型：</label>
+						<select	class="form-control" id="typeFrom" name="classes" >
+							<option value="">--请选择--</option>
+							<option value="DS">计算机体系结构/并行与分布计算/存储系统</option>
+							<option value="NW">计算机网络</option>
+							<option value="SC">网络与信息安全</option>
+							<option value="SE">软件工程/系统软件/程序设计语言</option>
+							<option value="DB">数据库/数据挖掘/内容检索</option>
+							<option value="CT">计算机科学理论</option>
+							<option value="CG">计算机图形学与多媒体</option>
+							<option value="AI">人工智能</option>
+							<option value="HI">人机交互与普适计算</option>
+							<option value="MX">交叉/综合/新兴</option>
+							</select>
+                      </div>
+					<div class="form-group">
+						<label for="ccfRank">&nbsp;CCF：</label>
+						<select	class="form-control" id="ccfRank" name="classes" >
+							<option value="">--请选择--</option>
+							<option value="A">A</option>
+							<option value="B">B</option>
+							<option value="C">C</option>
+							<option value="N">N</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label >&nbsp;&nbsp;&nbsp;只看收藏：</label>
+					</div>
+					<div class="form-group">
+						<svg class="icon1" aria-hidden="true" onclick="kaiguan()">
+							<use xlink:href="#icon-kaiguan1" id="kaiguan"></use>
+</svg>
+					</div>
+
+
+					<div class="form-group" style="float: right;margin-right: 30px">
+						<button class="btn btn-primary exportToExcel"  type="button">导出</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-default">
+<!-- /.panel-heading -->
+					<table  class="table-bordered table-striped table tablesorter table2excel">
+						<thead>
+							<tr>
+								<th>会议</th><th>类型</th><th>CCF</th><th class="sorter-grades">会议日期</th>
+								<th title="已转换为北京时间,详情见官网">全文截止&nbsp;<svg class="icon2" aria-hidden="true">
+									<use xlink:href="#icon-jieshi"></use>
+								</svg></th>
+								<th class="noExl">倒计时</th><th>地点</th><th class="noExl">收藏</th>
+							</tr>
+						</thead>
+						<tbody id="tbody">
+						</tbody>
+					</table>
+
+	<div id="data-src" style="float: right"> 数据来源：<a href="https://github.com/ccfddl/ccf-deadlines" >https://github.com/ccfddl/ccf-deadlines</a> </div>
+
+					<!-- /.panel-body -->
+				</div>
+
+				<div id="no-data" align="center" style="font-size: medium;margin: 20px">暂无数据</div>
+				<!-- /.panel -->
+			</div>
+			<!-- /.col-lg-12 -->
+		</div>
+	</div>
+	</nav>
+	<footer  style="position:absolute;bottom:0;width:100%;height:50px;background-color: #f9f9f9">
+		<div align="center" style="margin:15px;">
+			<p style="height:20px;line-height:20px; color:#939393;">
+				<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34160202000858" style="text-decoration:none;"><img src="https://ccfddl.top:443/images/beian.png" /><span style="margin: 0px 0px 0px 5px;color:#939393;">皖公网安备 34160202000858号</span></a>&nbsp;&nbsp;
+				<a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;text-decoration:none;">皖ICP备2023001974号-1</a>
+			</p>
+		</div>
+	</footer>
+</div>
+
+<script src="https://ccfddl.top:443/js/jquery-1.11.3.min.js"></script>
+<script src="https://ccfddl.top:443/js/bootstrap.min.js"></script>
+<script src="https://ccfddl.top:443/js/metisMenu.min.js"></script>
+<script src="https://ccfddl.top:443/js/sb-admin-2.js"></script>
+<script src="https://ccfddl.top:443/js/iconfont7.js"></script>
+<script src="https://ccfddl.top:443/js/jquery.table2excel2.js"></script>
+<script src="https://ccfddl.top:443/js/jquery.tablesorter.min.js"></script>
+
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"JxLW4HXqjgXLRAVW",ck:"JxLW4HXqjgXLRAVW"})</script>
+
+<!-- 编写js代码 -->
+<script type="text/javascript">
+
+	$.tablesorter.addParser({
+		id: 'grades',
+		is: function(s, table, cell, $cell) {
+			return false;
+		},
+		format: function(s, table, cell, cellIndex) {
+			var dateParts = s.split(",");
+			if(dateParts.length===1){return 0;}
+			var dateStr1 = dateParts[0].split("-")[0].trim() +" "+ dateParts[1].trim();
+			var dateObj = new Date(dateStr1);
+			return dateObj.getTime()
+		},
+		type: 'numeric'
+	})
+
+	$('table').tablesorter({
+		widgets        : ['zebra', 'columns'],
+		sortList : [[5,0]],
+		usNumberFormat : false,
+		sortReset      : true,
+		sortRestart    : true,
+		headers: { 7: { sorter: false}}
+	});
+
+	var typeMap={
+		"DS": "计算机体系结构/并行与分布计算/存储系统",
+		"NW": "计算机网络",
+		"SC": "网络与信息安全",
+		"SE": "软件工程/系统软件/程序设计语言",
+		"DB": "数据库/数据挖掘/内容检索",
+		"CT": "计算机科学理论",
+		"CG": "计算机图形学与多媒体",
+		"AI": "人工智能",
+		"HI": "人机交互与普适计算",
+		"MX": "交叉/综合/新兴"}
+
+	var timeMap = {"UTC":1000*3600*8,"AoE":1000*3600*20};
+	for (let i = -12; i <=12 ; i++) {
+		if(i>=0){
+			timeMap["UTC+"+i]=1000*3600*(8-i);
+		}else{
+			timeMap["UTC-"+(-i)]=1000*3600*(8-i);
+		}
+	}
+
+	$('#meetingName').bind('input propertychange', function() {query()});
+	$('#typeFrom').bind('input propertychange', function() {query()});
+	$('#ccfRank').bind('input propertychange', function() {query()});
+
+	if (!localStorage.getItem("like_meetings")) {
+		like_meetings = [];
+	}else{
+		like_meetings = JSON.parse(localStorage.getItem("like_meetings"));
+	}
+
+	if(localStorage.getItem('only_like')==='true'){
+		$('#kaiguan').attr('xlink:href','#icon-kaiguan');
+	}
+	var rows=[];
+	
+	rows.push({'type':"AI",'shortName':"AAAI",'ccfRank':"A",'deadline':"2023-08-15 23:59:59",
+		'timezone':'UTC-12','id':600,'date':"February 20 - February 27, 2024",'link':'https://www.aaai.org/aaai-conference/','place':"Vancouver, British Columbia, Canada",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"AAMAS",'ccfRank':"B",'deadline':"2023-10-09 23:59:59",
+		'timezone':'UTC-12','id':601,'date':"May 6-10, 2024",'link':'https://www.aamas2024-conference.auckland.ac.nz/','place':"Auckland, New Zealand",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ACL",'ccfRank':"A",'deadline':"2024-02-15 23:59:59",
+		'timezone':'UTC-12','id':602,'date':"August 11-16, 2024",'link':'https://2024.aclweb.org/','place':"Bangkok, Thailand",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ACML",'ccfRank':"C",'deadline':"2024-06-26 23:59:59",
+		'timezone':'UTC-12','id':603,'date':"December 5-7, 2024",'link':'https://www.acml-conf.org/2024/index.html','place':"Hanoi, Vietnam",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"AISTATS",'ccfRank':"C",'deadline':"2023-10-16 23:59:59",
+		'timezone':'UTC-12','id':604,'date':"May 2-4, 2024",'link':'https://aistats.org/aistats2024/','place':"Valencia, Spain",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"BMVC",'ccfRank':"C",'deadline':"2023-05-12 23:59:59",
+		'timezone':'UTC','id':605,'date':"November 20-24, 2023",'link':'https://www.bmvc2023.org/','place':"Aberdeen, UK",'year':'2023'})
+	
+	rows.push({'type':"AI",'shortName':"COLING",'ccfRank':"B",'deadline':"2023-10-21 23:59:59",
+		'timezone':'UTC-12','id':606,'date':"May 20 - May 25, 2024",'link':'https://lrec-coling-2024.lrec-conf.org/','place':"Torino, Italy",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"COLT",'ccfRank':"B",'deadline':"2024-02-09 15:59:59",
+		'timezone':'UTC-5','id':607,'date':"June 30 - July 3, 2024",'link':'https://www.learningtheory.org/colt2024/','place':"Edmonton, Canada",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"CVPR",'ccfRank':"A",'deadline':"2023-11-17 23:59:59",
+		'timezone':'UTC-8','id':608,'date':"June 17-21, 2024",'link':'https://cvpr.thecvf.com/Conferences/2024','place':"Seattle, USA",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ECCV",'ccfRank':"B",'deadline':"2024-03-07 13:00:00",
+		'timezone':'UTC-8','id':609,'date':"September 29 - October 4, 2024",'link':'https://eccv2024.ecva.net/','place':"MiCo Milano, Italy",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"EMNLP",'ccfRank':"B",'deadline':"2023-06-23 23:59:59",
+		'timezone':'UTC-12','id':610,'date':"December 6 - 10, 2023",'link':'https://2023.emnlp.org','place':"Singapore",'year':'2023'})
+	
+	rows.push({'type':"AI",'shortName':"ICCV",'ccfRank':"A",'deadline':"2023-03-08 23:59:59",
+		'timezone':'UTC+0','id':611,'date':"October 2-6, 2023",'link':'http://iccv2023.thecvf.com/home/','place':"Paris",'year':'2023'})
+	
+	rows.push({'type':"AI",'shortName':"ICLR",'ccfRank':"N",'deadline':"2023-09-28 23:59:59",
+		'timezone':'UTC-12','id':612,'date':"May 07-11, 2024",'link':'https://iclr.cc/Conferences/2024','place':"Vienna, Austria",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ICML",'ccfRank':"A",'deadline':"2024-02-01 23:59:59",
+		'timezone':'UTC-12','id':613,'date':"July 21-27, 2024",'link':'https://icml.cc/Conferences/2024','place':"Messe Wien Exhibition Congress Center, Vienna, Austria",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ICRA",'ccfRank':"B",'deadline':"2023-09-15 23:59:00",
+		'timezone':'UTC-8','id':614,'date':"May 13-17, 2024",'link':'http://ieee-icra.org/','place':"Yokohama, Japan",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ICTAI",'ccfRank':"C",'deadline':"2021-06-20 23:59:00",
+		'timezone':'UTC-7','id':615,'date':"November 01-03, 2021",'link':'https://ictai.computer.org/','place':"Washington DC, USA",'year':'2021'})
+	
+	rows.push({'type':"AI",'shortName':"IJCAI",'ccfRank':"A",'deadline':"2024-01-17 23:59:59",
+		'timezone':'UTC-12','id':616,'date':"August 3-9, 2024",'link':'https://ijcai24.org/','place':"Jeju Island, South Korea.",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"KR",'ccfRank':"B",'deadline':"2024-05-01 23:59:59",
+		'timezone':'UTC-12','id':617,'date':"November 2-8, 2024",'link':'https://kr.org/KR2024/','place':"Hanoi, Vietnam",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"NAACL",'ccfRank':"B",'deadline':"2023-12-15 23:59:59",
+		'timezone':'UTC-12','id':618,'date':"June 16-21, 2024",'link':'https://2024.naacl.org/','place':"Mexico City, Mexico",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"NeurIPS",'ccfRank':"A",'deadline':"2023-05-17 20:00:00",
+		'timezone':'UTC+0','id':619,'date':"November 28-December 9, 2023",'link':'https://neurips.cc/Conferences/2023','place':"New Orleans, Louisiana, USA",'year':'2023'})
+	
+	rows.push({'type':"AI",'shortName':"UAI",'ccfRank':"B",'deadline':"2024-02-09 23:59:59",
+		'timezone':'AoE','id':620,'date':"July 15-19, 2024",'link':'http://auai.org/uai2024/','place':"Barcelona, Spain",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"ICASSP",'ccfRank':"B",'deadline':"2023-09-06 23:59:59",
+		'timezone':'UTC-12','id':621,'date':"April 14-19, 2024",'link':'https://2024.ieeeicassp.org/','place':"COEX, Seoul, Korea",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"ICIP",'ccfRank':"C",'deadline':"2024-01-31 23:59:59",
+		'timezone':'UTC+0','id':622,'date':"Oct 27-30, 2024",'link':'https://2024.ieeeicip.org/','place':"Abu Dhabi, United Arab Emirates",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"ICME",'ccfRank':"B",'deadline':"2023-12-30 23:59:59",
+		'timezone':'UTC+0','id':623,'date':"July 15-19, 2024",'link':'https://2024.ieeeicme.org/','place':"Niagra Falls, Canada",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"InterSpeech",'ccfRank':"C",'deadline':"2024-03-09 23:59:59",
+		'timezone':'UTC+0','id':624,'date':"September 1-5, 2024",'link':'https://www.interspeech2024.org/','place':"Greece",'year':'2024'})
+	
+	rows.push({'type':"MX",'shortName':"MICCAI",'ccfRank':"B",'deadline':"2024-03-07 23:59:59",
+		'timezone':'UTC+0','id':625,'date':"Oct 6-10, 2024",'link':'https://conferences.miccai.org/2024/en/','place':"Marrakesh, Morocco",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"ACM MM",'ccfRank':"A",'deadline':"2024-04-12 23:59:59",
+		'timezone':'UTC-12','id':626,'date':"October 28-November 01, 2024",'link':'https://2024.acmmm.org/','place':"Melbourne, Australia",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"ACM SIGGRAPH",'ccfRank':"A",'deadline':"2021-01-28 22:00:00",
+		'timezone':'UTC+0','id':627,'date':"August 9-13, 2021",'link':'https://s2021.siggraph.org/','place':"Virtual",'year':'2021'})
+	
+	rows.push({'type':"CG",'shortName':"ACM SIGGRAPH ASIA",'ccfRank':"A",'deadline':"2021-05-21 22:00:00",
+		'timezone':'UTC+0','id':628,'date':"December 14-17, 2021",'link':'https://sa2021.siggraph.org/','place':"Tokyo, Japan",'year':'2021'})
+	
+	rows.push({'type':"CT",'shortName':"CAV",'ccfRank':"A",'deadline':"2022-01-21 23:59:59",
+		'timezone':'AoE','id':629,'date':"Aug 7-10, 2022",'link':'http://i-cav.org/2022/','place':"Technion, Haifa, Israel",'year':'2022'})
+	
+	rows.push({'type':"CT",'shortName':"STOC",'ccfRank':"A",'deadline':"2020-11-06 11:59:59",
+		'timezone':'UTC-5','id':630,'date':"June 21-25, 2021",'link':'http://acm-stoc.org/stoc2021/','place':"Virtual",'year':'2021'})
+	
+	rows.push({'type':"DB",'shortName':"CIKM",'ccfRank':"B",'deadline':"2023-06-02 23:59:59",
+		'timezone':'AoE','id':631,'date':"October 21-25, 2023",'link':'https://uobevents.eventsair.com/cikm2023/','place':"Birmingham, UK",'year':'2023'})
+	
+	rows.push({'type':"DB",'shortName':"DASFAA",'ccfRank':"B",'deadline':"2023-12-22 23:59:59",
+		'timezone':'AoE','id':632,'date':"July 3-5, 2024",'link':'https://www.dasfaa2024.org/','place':"Gifu, Japan",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"EDBT",'ccfRank':"B",'deadline':"2023-10-03 23:59:59",
+		'timezone':'AoE','id':633,'date':"March 25-28, 2024",'link':'https://dastlab.github.io/edbticdt2024/','place':"Paestum, Italy",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"ICDE",'ccfRank':"A",'deadline':"2023-12-03 23:59:59",
+		'timezone':'AoE','id':634,'date':"April 16-19, 2024",'link':'https://icde2024.github.io/','place':"Utrecht, Netherlands",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"ICDM",'ccfRank':"B",'deadline':"2024-07-01 23:59:59",
+		'timezone':'AoE','id':635,'date':"December 9-12, 2024",'link':'http://18.133.154.107/dates/','place':"Abu Dhabi,UAE",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"ICDT",'ccfRank':"B",'deadline':"2021-09-13 23:59:59",
+		'timezone':'AoE','id':636,'date':"Mar 29-April 01, 2022",'link':'https://conferences.inf.ed.ac.uk/edbticdt2022/','place':"Edinburgh, UK",'year':'2022'})
+	
+	rows.push({'type':"DB",'shortName':"ISWC",'ccfRank':"B",'deadline':"2022-05-05 23:59:59",
+		'timezone':'AoE','id':637,'date':"October 23-27, 2022",'link':'https://iswc2022.semanticweb.org/','place':"Hangzhou, China",'year':'2022'})
+	
+	rows.push({'type':"DB",'shortName':"ECML-PKDD",'ccfRank':"B",'deadline':"2024-03-22 23:59:59",
+		'timezone':'AoE','id':638,'date':"September 9-13, 2024",'link':'https://2024.ecmlpkdd.org/submissions/key-dates-and-deadlines/','place':"Vilnius, Lithuania",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"SIGIR",'ccfRank':"A",'deadline':"2024-01-25 23:59:59",
+		'timezone':'AoE','id':639,'date':"July 14-18, 2024",'link':'https://sigir-2024.github.io/index.html','place':"Washington D.C., USA",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"SIGKDD",'ccfRank':"A",'deadline':"2024-08-08 23:59:59",
+		'timezone':'AoE','id':640,'date':"TBD, 2025",'link':'https://kdd2024.kdd.org/research-track-call-for-papers/','place':"TBD",'year':'2025'})
+	
+	rows.push({'type':"DB",'shortName':"SIGMOD",'ccfRank':"A",'deadline':"2024-04-17 23:59:00",
+		'timezone':'AoE','id':641,'date':"unknown, 2025",'link':'https://2025.sigmod.org/','place':"Berlin, Germany",'year':'2025'})
+	
+	rows.push({'type':"DB",'shortName':"VLDB",'ccfRank':"A",'deadline':"2024-03-01 17:00:00",
+		'timezone':'UTC-7','id':642,'date':"August 25-29, 2024",'link':'http://www.vldb.org/2024/','place':"Guangzhou, China (and hybrid)",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"WSDM",'ccfRank':"B",'deadline':"2023-08-10 23:59:59",
+		'timezone':'UTC-12','id':643,'date':"March 4 - March 8, 2024",'link':'https://www.wsdm-conference.org/2024/','place':"Mérida, México",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"ASPLOS",'ccfRank':"A",'deadline':"2024-03-01 23:59:59",
+		'timezone':'AoE','id':644,'date':"March-April, 2025",'link':'https://www.asplos-conference.org/asplos-2025-call-for-papers/','place':"Rotterdam, Netherland.",'year':'2025'})
+	
+	rows.push({'type':"DS",'shortName':"USENIX ATC",'ccfRank':"A",'deadline':"2024-01-16 23:59:59",
+		'timezone':'UTC+0','id':645,'date':"July 10-12, 2024",'link':'https://www.usenix.org/conference/atc24/','place':"Santa Clara, CA, USA",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"CLUSTER",'ccfRank':"B",'deadline':"2023-05-11 23:59:59",
+		'timezone':'AoE','id':646,'date':"October 31-November 3, 2023",'link':'https://clustercomp.org/2023','place':"Santa Fe, New Mexico, USA",'year':'2023'})
+	
+	rows.push({'type':"DS",'shortName':"DAC",'ccfRank':"A",'deadline':"2023-11-20 17:00:00",
+		'timezone':'UTC-8','id':647,'date':"June 23-27, 2024",'link':'https://www.dac.com/Conference/2024-Call-for-Contributions','place':"San Francisco, CA",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"DATE",'ccfRank':"B",'deadline':"2023-09-17 23:59:59",
+		'timezone':'AoE','id':648,'date':"March 25-27, 2024",'link':'https://www.date-conference.com/','place':"Valencia, Spain",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"Euro-Par",'ccfRank':"B",'deadline':"2024-03-15 23:59:59",
+		'timezone':'AoE','id':649,'date':"August 26-30, 2023",'link':'https://2024.euro-par.org','place':"Madrid, Spain",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"EuroSys",'ccfRank':"A",'deadline':"2024-05-21 23:59:59",
+		'timezone':'AoE','id':650,'date':"March-April, 2025",'link':'https://www.eurosys.org/news/eurosys-2025','place':"Rotterdam, The Netherlands.",'year':'2025'})
+	
+	rows.push({'type':"DS",'shortName':"FAST",'ccfRank':"A",'deadline':"2023-09-21 23:59:59",
+		'timezone':'UTC-7','id':651,'date':"FEBRUARY 27-29, 2024",'link':'https://www.usenix.org/conference/fast24','place':"SANTA CLARA, CA, USA",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"FCCM",'ccfRank':"C",'deadline':"2024-01-15 23:59:59",
+		'timezone':'AoE','id':652,'date':"May 5-8, 2024",'link':'https://www.fccm.org/','place':"Orlando, USA",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"FPGA",'ccfRank':"B",'deadline':"2023-10-13 23:59:59",
+		'timezone':'UTC-7','id':653,'date':"March 3 - March 5, 2024",'link':'https://www.isfpga.org/','place':"Monterey, California, USA",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"HPCA",'ccfRank':"A",'deadline':"2023-08-04 23:59:59",
+		'timezone':'UTC-7','id':654,'date':"March 2-6, 2024",'link':'https://hpca-conf.org/2024/','place':"Edinburgh, Scotland, UK",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"ICCAD",'ccfRank':"B",'deadline':"2023-05-22 23:59:59",
+		'timezone':'UTC-12','id':655,'date':"Oct 29 - Nov 2, 2023",'link':'https://iccad.com/','place':"San Diego, CA, USA",'year':'2023'})
+	
+	rows.push({'type':"DS",'shortName':"ICCD",'ccfRank':"B",'deadline':"2023-06-16 23:59:00",
+		'timezone':'AoE','id':656,'date':"November 6-8, 2023",'link':'https://www.iccd-conf.com/Call_for_papers.html','place':"Washington DC, USA",'year':'2023'})
+	
+	rows.push({'type':"DS",'shortName':"ICDCS",'ccfRank':"B",'deadline':"2024-01-19 23:59:59",
+		'timezone':'UTC-12','id':657,'date':"July 16-19, 2024",'link':'https://icdcs2024.icdcs.org/','place':"New Jersey, USA",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"ICPP",'ccfRank':"B",'deadline':"2024-04-15 23:59:59",
+		'timezone':'AoE','id':658,'date':"August 12-15, 2024",'link':'https://icpp2024.org/','place':"Gotland, Sweden",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"IPDPS",'ccfRank':"B",'deadline':"2022-10-06 23:59:59",
+		'timezone':'AoE','id':659,'date':"May 15-19, 2023",'link':'https://www.ipdps.org/ipdps2023/','place':"St. Petersburg, Florida USA",'year':'2023'})
+	
+	rows.push({'type':"DS",'shortName':"ISCA",'ccfRank':"A",'deadline':"2023-11-21 23:59:59",
+		'timezone':'AoE','id':660,'date':"June 29-July 3, 2024",'link':'https://iscaconf.org/isca2024/','place':"Buenos Aires, Argentina",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"ISPA",'ccfRank':"C",'deadline':"2021-07-09 23:59:59",
+		'timezone':'AoE','id':661,'date':"September 30-October 3, 2021",'link':'http://www.cloud-conf.net/ispa2021/','place':"New York, USA",'year':'2021'})
+	
+	rows.push({'type':"DS",'shortName':"MICRO",'ccfRank':"A",'deadline':"2024-04-11 11:59:59",
+		'timezone':'UTC-5','id':662,'date':"November 2-6, 2024",'link':'https://microarch.org/micro57/','place':"Austin, Texas, USA",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"PPoPP",'ccfRank':"A",'deadline':"2023-08-04 23:59:59",
+		'timezone':'AoE','id':663,'date':"Mar 2-Mar 6, 2024",'link':'https://conf.researchr.org/home/ppopp-2024','place':"Edinburgh, United Kingdom",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"SC",'ccfRank':"A",'deadline':"2024-04-02 23:59:00",
+		'timezone':'AoE','id':664,'date':"November 17-22, 2024",'link':'https://sc24.supercomputing.org/','place':"ATLANTA, GA, USA",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"VEE",'ccfRank':"B",'deadline':"2021-12-03 23:59:59",
+		'timezone':'AoE','id':665,'date':"Feb 28-March 4, 2022",'link':'https://conf.researchr.org/home/vee-2022','place':"Virtual",'year':'2022'})
+	
+	rows.push({'type':"HI",'shortName':"CSCW",'ccfRank':"A",'deadline':"2024-01-16 23:59:59",
+		'timezone':'AoE','id':666,'date':"November 9-13, 2024",'link':'https://cscw.acm.org/2024/','place':"San José, Costa Rica",'year':'2024'})
+	
+	rows.push({'type':"HI",'shortName':"CSCWD",'ccfRank':"C",'deadline':"2022-10-31 23:59:59",
+		'timezone':'AoE','id':667,'date':"May 24-26, 2023",'link':'http://2023.cscwd.org','place':"Rio de Janeiro, Brazil",'year':'2023'})
+	
+	rows.push({'type':"MX",'shortName':"BIBM",'ccfRank':"B",'deadline':"2023-08-15 17:00:00",
+		'timezone':'UTC-5','id':668,'date':"Dec 5-8, 2023",'link':'https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/','place':"Istanbul, Turkey",'year':'2023'})
+	
+	rows.push({'type':"MX",'shortName':"RTSS",'ccfRank':"A",'deadline':"2022-05-26 23:59:59",
+		'timezone':'AoE','id':669,'date':"December 5-8, 2022",'link':'http://2022.rtss.org/','place':"Houston, USA",'year':'2022'})
+	
+	rows.push({'type':"MX",'shortName':"WWW",'ccfRank':"A",'deadline':"2023-10-12 23:59:59",
+		'timezone':'AoE','id':670,'date':"May 13-17, 2024",'link':'https://www2024.thewebconf.org/','place':"Singapore",'year':'2024'})
+	
+	rows.push({'type':"NW",'shortName':"ICNP",'ccfRank':"B",'deadline':"2024-05-24 23:59:59",
+		'timezone':'AoE','id':671,'date':"October 28-31, 2024",'link':'https://icnp24.cs.ucr.edu/index.html','place':"Charleroi, Belgium",'year':'2024'})
+	
+	rows.push({'type':"NW",'shortName':"INFOCOM",'ccfRank':"A",'deadline':"2023-07-31 23:59:59",
+		'timezone':'AoE','id':672,'date':"May 20-23, 2024",'link':'https://infocom2024.ieee-infocom.org/','place':"Vancouver, Canada",'year':'2024'})
+	
+	rows.push({'type':"NW",'shortName':"IPSN",'ccfRank':"B",'deadline':"2021-10-29 23:59:59",
+		'timezone':'UTC-12','id':673,'date':"May 4-6, 2022",'link':'https://ipsn.acm.org/2022/','place':"Milan, Italy",'year':'2022'})
+	
+	rows.push({'type':"NW",'shortName':"IWQoS",'ccfRank':"B",'deadline':"2023-02-07 23:59:59",
+		'timezone':'UTC-12','id':674,'date':"June 19-21, 2023",'link':'https://iwqos2023.ieee-iwqos.org/','place':"Orlando, FL, USA",'year':'2023'})
+	
+	rows.push({'type':"NW",'shortName':"MobiCom",'ccfRank':"A",'deadline':"2023-08-25 23:59:59",
+		'timezone':'UTC-12','id':675,'date':"October, 2024",'link':'https://www.sigmobile.org/mobicom/2024/','place':"Washington, D.C., USA",'year':'2024'})
+	
+	rows.push({'type':"NW",'shortName':"MobiHoc",'ccfRank':"B",'deadline':"2022-03-04 23:59:59",
+		'timezone':'UTC-12','id':676,'date':"October 17-22, 2022",'link':'https://www.sigmobile.org/mobihoc/2022/','place':"Seoul, South Korea",'year':'2022'})
+	
+	rows.push({'type':"NW",'shortName':"MobiSys",'ccfRank':"B",'deadline':"2021-12-20 23:59:59",
+		'timezone':'UTC-12','id':677,'date':"TBD",'link':'https://www.sigmobile.org/mobisys/2022/','place':"TBD",'year':'2022'})
+	
+	rows.push({'type':"NW",'shortName':"NSDI",'ccfRank':"A",'deadline':"2024-05-07 23:59:59",
+		'timezone':'UTC-5','id':678,'date':"April 28-30, 2025",'link':'https://www.usenix.org/conference/nsdi25','place':"Philadelphia, PA, USA",'year':'2025'})
+	
+	rows.push({'type':"NW",'shortName':"SIGCOMM",'ccfRank':"A",'deadline':"2024-02-02 23:59:59",
+		'timezone':'UTC','id':679,'date':"August 4 - 8, 2024",'link':'https://conferences.sigcomm.org/sigcomm/2024/','place':"Sydney, Australia",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"ACISP",'ccfRank':"C",'deadline':"2024-02-19 23:59:59",
+		'timezone':'AoE','id':680,'date':"July 15-17, 2024",'link':'https://www.acisp24.com/','place':"Australia",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"ACNS",'ccfRank':"C",'deadline':"2023-10-20 23:59:59",
+		'timezone':'AoE','id':681,'date':"March 5-8, 2024",'link':'https://wp.nyu.edu/acns2024/','place':"Abu Dhabi, UAE",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"ACSAC",'ccfRank':"B",'deadline':"2023-05-26 23:59:59",
+		'timezone':'UTC-12','id':682,'date':"December 4-8, 2023",'link':'https://www.acsac.org/','place':"Austin, Texas, USA",'year':'2023'})
+	
+	rows.push({'type':"SC",'shortName':"AsiaCCS",'ccfRank':"C",'deadline':"2023-12-07 23:59:59",
+		'timezone':'AoE','id':683,'date':"July 1-5, 2024",'link':'https://asiaccs2024.sutd.edu.sg/','place':"Singapore",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"ASIACRYPT",'ccfRank':"B",'deadline':"2023-05-26 11:59:00",
+		'timezone':'UTC-12','id':684,'date':"December 4-8, 2023",'link':'https://asiacrypt.iacr.org/2023/','place':"Guangzhou, China",'year':'2023'})
+	
+	rows.push({'type':"SC",'shortName':"CCS",'ccfRank':"A",'deadline':"2024-04-29 23:59:59",
+		'timezone':'UTC-12','id':685,'date':"October 14-18, 2024",'link':'https://www.sigsac.org/ccs/CCS2024/','place':"Salt Lake City, U.S.A",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"CHES",'ccfRank':"B",'deadline':"2024-04-15 23:59:59",
+		'timezone':'AoE','id':686,'date':"September, 2024",'link':'https://ches.iacr.org/2024/','place':"Halifax, Canada",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"CRYPTO",'ccfRank':"A",'deadline':"2024-02-13 23:59:59",
+		'timezone':'UTC-12','id':687,'date':"August 18-22, 2024",'link':'https://crypto.iacr.org/2024/','place':"Santa Barbara, USA",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"CSFW",'ccfRank':"B",'deadline':"2024-02-03 23:59:59",
+		'timezone':'UTC-12','id':688,'date':"July 8-12, 2024",'link':'https://www.ieee-security.org/TC/CSF2024/','place':"Enschede, The Netherlands",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"CT-RSA",'ccfRank':"C",'deadline':"2023-10-02 23:59:59",
+		'timezone':'UTC-12','id':689,'date':"May 06-09 , 2024",'link':'https://ct-rsa-2024.aau.at/','place':"San Francisco, CA, USA",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"DFRWS",'ccfRank':"C",'deadline':"2021-10-03 23:59:59",
+		'timezone':'AoE','id':690,'date':"March 28-31 , 2022",'link':'https://dfrws.org/conferences/dfrws-eu-2022/','place':"Online and Physical (Location TBC)",'year':'2022'})
+	
+	rows.push({'type':"SC",'shortName':"DIMVA",'ccfRank':"C",'deadline':"2024-02-14 23:59:59",
+		'timezone':'AoE','id':691,'date':"July 17-19, 2024",'link':'https://dimva.org/dimva2024/','place':"Lausanne, Switzerland",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"DSN",'ccfRank':"B",'deadline':"2023-12-06 23:59:59",
+		'timezone':'AoE','id':692,'date':"June 24-27, 2024",'link':'https://dsn2024uq.github.io','place':"Brisbane, Australia",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"ESORICS",'ccfRank':"B",'deadline':"2024-04-19 23:59:59",
+		'timezone':'AoE','id':693,'date':"September 16-20, 2024",'link':'https://esorics2024.org/','place':"Bydgoszcz, Poland",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"EUROCRYPT",'ccfRank':"A",'deadline':"2023-10-06 23:59:59",
+		'timezone':'AoE','id':694,'date':"May 26-30, 2024",'link':'https://eurocrypt.iacr.org/2024','place':"Zurich, Switzerland",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"FC",'ccfRank':"C",'deadline':"2023-09-18 23:59:59",
+		'timezone':'UTC-12','id':695,'date':"March 4-8, 2024",'link':'https://fc24.ifca.ai/','place':"Willemstad, Curaçao",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"FSE",'ccfRank':"B",'deadline':"2023-11-23 11:59:59",
+		'timezone':'UTC+0','id':696,'date':"March 25-29, 2024",'link':'https://fse.iacr.org/2024/','place':"Leuven, Belgium",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"HotSec",'ccfRank':"C",'deadline':"2021-10-12 23:59:59",
+		'timezone':'AoE','id':697,'date':"Extended",'link':'https://www.usenix.org/conferences/byname/158','place':"Vancouver, British Columbia, Canada",'year':'2021'})
+	
+	rows.push({'type':"SC",'shortName':"ICDF2C",'ccfRank':"C",'deadline':"2024-04-30 23:59:59",
+		'timezone':'UTC-12','id':698,'date':"October 9-10, 2024",'link':'https://icdf2c.eai-conferences.org/2024/','place':"Dubrovnik, Croatia",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"ICICS",'ccfRank':"C",'deadline':"2024-02-02 23:59:59",
+		'timezone':'AoE','id':699,'date':"August 26-28, 2024",'link':'http://icics2024.aegean.gr/','place':"Mytilene, Greece",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"IFIP WG 11.9",'ccfRank':"C",'deadline':"2021-10-15 23:59:59",
+		'timezone':'AoE','id':700,'date':"January 3 - 5, 2022",'link':'http://www.ifip119.org/Conferences/','place':"New Delhi, India",'year':'2022'})
+	
+	rows.push({'type':"SC",'shortName':"IH&MMSec",'ccfRank':"C",'deadline':"2021-02-25 23:59:59",
+		'timezone':'AoE','id':701,'date':"June 22-25, 2021",'link':'https://www.ihmmsec.org/','place':"Virtual",'year':'2021'})
+	
+	rows.push({'type':"SC",'shortName':"ISC",'ccfRank':"C",'deadline':"2021-07-23 23:59:59",
+		'timezone':'UTC-12','id':702,'date':"November 9 - 13, 2021",'link':'https://isc2021.petra.ac.id/','place':"Bali, Indonesia",'year':'2021'})
+	
+	rows.push({'type':"SC",'shortName':"NDSS",'ccfRank':"A",'deadline':"2023-06-28 23:59:59",
+		'timezone':'UTC-12','id':703,'date':"February 26 - March 1, 2024",'link':'https://www.ndss-symposium.org/ndss2024/','place':"San Diego, California",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"NSPW",'ccfRank':"C",'deadline':"2024-04-12 23:59:00",
+		'timezone':'UTC-11','id':704,'date':"September 16-18, 2024",'link':'https://www.nspw.org/2024/cfp','place':"Bedford, PA USA",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"PAM",'ccfRank':"C",'deadline':"2021-10-27 23:59:59",
+		'timezone':'AoE','id':705,'date':"March 28-30, 2022",'link':'https://pam2022.nl/','place':"Virtual",'year':'2022'})
+	
+	rows.push({'type':"SC",'shortName':"PETS",'ccfRank':"C",'deadline':"2024-02-29 23:59:59",
+		'timezone':'AoE','id':706,'date':"July 15-20, 2024",'link':'https://www.petsymposium.org/cfp24.php','place':"Bristol, UK and Online",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"PKC",'ccfRank':"B",'deadline':"2023-10-01 23:59:59",
+		'timezone':'UTC-12','id':707,'date':"April 15-17, 2024",'link':'https://pkc.iacr.org/2024/','place':"Sydney, Australia",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"RAID",'ccfRank':"B",'deadline':"2023-03-29 23:59:59",
+		'timezone':'AoE','id':708,'date':"October 16-18, 2023",'link':'https://raid2023.org/','place':"Hong Kong Polytechnic University, Hong Kong, China",'year':'2023'})
+	
+	rows.push({'type':"SC",'shortName':"SAC",'ccfRank':"C",'deadline':"2024-05-07 23:59:59",
+		'timezone':'AoE','id':709,'date':"August 28 - 30, 2024",'link':'https://sacworkshop.org/SAC24/','place':"Montreal, Canada",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"SACMAT",'ccfRank':"C",'deadline':"2021-02-25 23:59:59",
+		'timezone':'AoE','id':710,'date':"June 16-18, 2021",'link':'http://sacmat.dista.uninsubria.it/2021/','place':"Virtual",'year':'2021'})
+	
+	rows.push({'type':"SC",'shortName':"SEC",'ccfRank':"C",'deadline':"2021-04-15 23:59:59",
+		'timezone':'AoE','id':711,'date':"June 22-24, 2021",'link':'https://ifipsec.org/2021/','place':"Oslo, Norway",'year':'2021'})
+	
+	rows.push({'type':"SC",'shortName':"SecureComm",'ccfRank':"C",'deadline':"2024-05-10 23:59:59",
+		'timezone':'AoE','id':712,'date':"October 28-30, 2024",'link':'https://securecomm.eai-conferences.org/2024/','place':"Dubai, United Arab Emirates",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"SOUPS",'ccfRank':"C",'deadline':"2024-02-15 23:59:59",
+		'timezone':'AoE','id':713,'date':"AUGUST 11-13, 2024",'link':'https://www.usenix.org/conference/soups2024','place':"Philadelphia, USA",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"S&P",'ccfRank':"A",'deadline':"2023-12-06 23:59:59",
+		'timezone':'UTC-12','id':714,'date':"MAY 20-23, 2024",'link':'https://www.ieee-security.org/TC/SP2024/','place':"SAN FRANCISCO, CA",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"SRDS",'ccfRank':"B",'deadline':"2023-04-22 23:59:59",
+		'timezone':'UTC+1','id':715,'date':"September 27-29, 2023",'link':'https://srds-conference.org/','place':"Marrakech, Morocco",'year':'2023'})
+	
+	rows.push({'type':"SC",'shortName':"TCC",'ccfRank':"B",'deadline':"2023-06-01 15:00:00",
+		'timezone':'UTC-4','id':716,'date':"Nov 29 - Dec 12, 2023",'link':'https://tcc.iacr.org/2023/','place':"Taipei, China",'year':'2023'})
+	
+	rows.push({'type':"SC",'shortName':"TrustCom",'ccfRank':"C",'deadline':"2021-04-30 23:59:59",
+		'timezone':'UTC+8','id':717,'date':"To be announced",'link':'https://trustcom2021.sau.edu.cn/','place':"Shenyang, China",'year':'2021'})
+	
+	rows.push({'type':"SC",'shortName':"USENIX Security",'ccfRank':"A",'deadline':"2024-02-08 23:59:59",
+		'timezone':'UTC-12','id':718,'date':"August 14-16, 2024",'link':'https://www.usenix.org/conference/usenixsecurity24','place':"PHILADELPHIA, PA, USA",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"WiSec",'ccfRank':"C",'deadline':"2024-02-08 23:59:59",
+		'timezone':'AoE','id':719,'date':"May 27 - 30, 2024",'link':'https://wisec2024.kaist.ac.kr/','place':"Seoul, Korea",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"ASE",'ccfRank':"A",'deadline':"2024-06-07 23:59:59",
+		'timezone':'AoE','id':720,'date':"October 27- November 01, 2024",'link':'https://conf.researchr.org/home/ase-2024','place':"Sacramento, California, United States",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"CAiSE",'ccfRank':"B",'deadline':"2021-11-29 23:59:59",
+		'timezone':'AoE','id':721,'date':"June 06-10, 2022",'link':'https://caise22.ugent.be/','place':"Leuven",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"CP",'ccfRank':"B",'deadline':"2022-02-25 23:59:59",
+		'timezone':'AoE','id':722,'date':"July 31-August 8, 2022",'link':'https://cp2022.a4cp.org/','place':"HAIFA, ISRAEL",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"ECOOP",'ccfRank':"B",'deadline':"2022-03-01 23:59:59",
+		'timezone':'AoE','id':723,'date':"June 6-10, 2022",'link':'https://2022.ecoop.org/','place':"Berlin, Germany",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"ESEM",'ccfRank':"B",'deadline':"2022-05-02 23:59:59",
+		'timezone':'AoE','id':724,'date':"September 19-23, 2022",'link':'https://conf.researchr.org/home/esem-2022','place':"Helsinki, Finland",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"ETAPS",'ccfRank':"B",'deadline':"2022-01-26 23:59:59",
+		'timezone':'AoE','id':725,'date':"April 2-7, 2022",'link':'https://etaps.org/2022/','place':"Munich, Germany",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"FM",'ccfRank':"A",'deadline':"2024-04-15 23:59:00",
+		'timezone':'AoE','id':726,'date':"September 09-13, 2024",'link':'https://www.fm24.polimi.it/','place':"Milan, Italy",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"ESEC/FSE",'ccfRank':"A",'deadline':"2023-09-28 23:59:59",
+		'timezone':'AoE','id':727,'date':"July 15-19, 2024",'link':'https://2024.esec-fse.org/','place':"Porto de Galinas, Brazil",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"HotOS",'ccfRank':"B",'deadline':"2021-02-03 23:59:59",
+		'timezone':'AoE','id':728,'date':"May 31-Jun 02, 2021",'link':'https://www.usenix.org/conference/hotos15','place':"Virtual",'year':'2021'})
+	
+	rows.push({'type':"SE",'shortName':"ICFP",'ccfRank':"B",'deadline':"2021-06-16 23:59:59",
+		'timezone':'AoE','id':729,'date':"September 11-16, 2022",'link':'https://icfp22.sigplan.org/','place':"Ljubljana, Slovenia",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"ICPC",'ccfRank':"B",'deadline':"2023-11-03 23:59:59",
+		'timezone':'AoE','id':730,'date':"April 14-20, 2024",'link':'https://conf.researchr.org/home/icpc-2024','place':"Lisbon, Portugal",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"ICSE",'ccfRank':"A",'deadline':"2024-03-22 23:59:59",
+		'timezone':'AoE','id':731,'date':"April 26- May 04, 2025",'link':'https://conf.researchr.org/home/icse-2025','place':"Ottawa, Ontario, Canada",'year':'2025'})
+	
+	rows.push({'type':"SE",'shortName':"ICSME",'ccfRank':"B",'deadline':"2024-04-11 23:59:59",
+		'timezone':'AoE','id':732,'date':"October 06-11, 2024",'link':'https://conf.researchr.org/home/icsme-2024','place':"Flagstaff, Arizona, USA",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"ICSOC",'ccfRank':"B",'deadline':"2022-04-23 23:59:59",
+		'timezone':'AoE','id':733,'date':"May 26-27, 2022",'link':'http://www.icsoc.org/','place':"Barcelona, Spain",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"ICWS",'ccfRank':"B",'deadline':"2023-03-25 23:59:59",
+		'timezone':'AoE','id':734,'date':"July 2-8, 2023",'link':'https://conferences.computer.org/icws/2023/','place':"CHICAGO, ILLINOIS USA",'year':'2023'})
+	
+	rows.push({'type':"SE",'shortName':"ISSRE",'ccfRank':"B",'deadline':"2021-06-01 23:59:59",
+		'timezone':'AoE','id':735,'date':"October 9-12, 2023",'link':'https://issre.github.io/2023/index.html','place':"Florence, Italy",'year':'2023'})
+	
+	rows.push({'type':"SE",'shortName':"ISSTA",'ccfRank':"A",'deadline':"2024-04-12 23:59:59",
+		'timezone':'AoE','id':736,'date':"September 16-20, 2024",'link':'https://conf.researchr.org/home/issta-2024','place':"Vienna, Austria",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"LCTES",'ccfRank':"B",'deadline':"2024-02-23 23:59:59",
+		'timezone':'AoE','id':737,'date':"June 24, 2024",'link':'https://pldi24.sigplan.org/home/LCTES-2024','place':"Copenhagen, Denmark",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"Middleware",'ccfRank':"B",'deadline':"2022-03-15 23:59:59",
+		'timezone':'AoE','id':738,'date':"November 7-11, 2022",'link':'https://middleware-conf.github.io/2022/','place':"Fairmont Le Château Frontenac, Québec City, Québec, Canada",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"MoDELS",'ccfRank':"B",'deadline':"TBD",
+		'timezone':'AoE','id':739,'date':"October 16-21, 2022",'link':'https://conf.researchr.org/home/models-2022','place':"Montréal, Canada",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"OOPSLA",'ccfRank':"A",'deadline':"2024-04-06 07:59:59",
+		'timezone':'UTC-4','id':740,'date':"October 20-25, 2024",'link':'https://2024.splashcon.org/track/splash-2024-oopsla','place':"Pasadena, United States",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"OSDI",'ccfRank':"A",'deadline':"2023-12-07 22:59:59",
+		'timezone':'UTC','id':741,'date':"July 10-12, 2024",'link':'https://www.usenix.org/conference/osdi24','place':"Santa Clara, CA, USA",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"PLDI",'ccfRank':"A",'deadline':"2023-11-16 23:59:59",
+		'timezone':'AoE','id':742,'date':"June 24-28, 2024",'link':'https://pldi24.sigplan.org/','place':"Copenhagen, Denmark",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"POPL",'ccfRank':"A",'deadline':"2023-07-11 23:59:59",
+		'timezone':'AoE','id':743,'date':"January 17-19, 2024",'link':'https://popl24.sigplan.org/','place':"London, United Kingdom",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"QRS",'ccfRank':"C",'deadline':"2021-08-22 23:59:59",
+		'timezone':'AoE','id':744,'date':"December 6-10, 2021",'link':'https://qrs21.techconf.org/','place':"Hainan Island, China",'year':'2021'})
+	
+	rows.push({'type':"SE",'shortName':"RE",'ccfRank':"B",'deadline':"2023-03-17 23:59:59",
+		'timezone':'AoE','id':745,'date':"September 4-8, 2023",'link':'https://conf.researchr.org/dates/RE-2023','place':"Hannover, Germany",'year':'2023'})
+	
+	rows.push({'type':"SE",'shortName':"SANER",'ccfRank':"B",'deadline':"2023-10-29 23:59:59",
+		'timezone':'AoE','id':746,'date':"March 12-15, 2024",'link':'https://conf.researchr.org/home/saner-2024','place':"Rovaniemi, Finland",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"SAS",'ccfRank':"B",'deadline':"TBD",
+		'timezone':'AoE','id':747,'date':"November 14-19, 2022",'link':'https://2022.splashcon.org/home/sas-2022','place':"Auckland, New Zealand",'year':'2022'})
+	
+	rows.push({'type':"SE",'shortName':"SOSP",'ccfRank':"A",'deadline':"2024-04-19 23:59:59",
+		'timezone':'UTC-8','id':748,'date':"November 4 - 6, 2024",'link':'https://sigops.org/s/conferences/sosp/2024/index.html','place':"Hilton Austin, Texas, USA",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"VMCAI",'ccfRank':"B",'deadline':"2021-09-09 23:59:59",
+		'timezone':'AoE','id':749,'date':"January 16-28, 2022",'link':'https://popl22.sigplan.org/home/VMCAI-2022','place':"Philadelphia, Pennsylvania, United States",'year':'2022'})
+	
+	rows.push({'type':"NW",'shortName':"GLOBECOM",'ccfRank':"C",'deadline':"2023-04-15 23:59:59",
+		'timezone':'UTC-4','id':900,'date':"December 4-8, 2023",'link':'https://globecom2023.ieee-globecom.org/','place':"Kuala Lumpur, Malaysia",'year':'2023'})
+	
+	rows.push({'type':"SE",'shortName':"SEKE",'ccfRank':"C",'deadline':"2024-06-10 23:59:59",
+		'timezone':'UTC-5','id':901,'date':"October 28-November 5, 2024",'link':'https://ksiresearch.org/seke/seke24.html','place':"Amalfi, Italy / Virtual venue",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"Internetware",'ccfRank':"C",'deadline':"2023-04-22 23:59:59",
+		'timezone':'UTC-12','id':902,'date':"August 4-6, 2023",'link':'https://conf.researchr.org/home/internetware-2023','place':"Hangzhou, China",'year':'2023'})
+	
+	rows.push({'type':"DS",'shortName':"ICA3PP",'ccfRank':"C",'deadline':"2023-05-30 23:59:00",
+		'timezone':'UTC-8','id':903,'date':"October 20-22, 2022",'link':'http://tjutanklab.com/ica3pp2023/','place':"Tianjin, China",'year':'2023'})
+	
+	rows.push({'type':"AI",'shortName':"IROS",'ccfRank':"C",'deadline':"2024-03-01 23:59:59",
+		'timezone':'UTC-8','id':904,'date':"October 13-17, 2024",'link':'http://iros2024-abudhabi.org/','place':"Abu Dhabi, UAE",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"RSS",'ccfRank':"N",'deadline':"2024-02-02 23:59:00",
+		'timezone':'AoE','id':905,'date':"July 15-19, 2024",'link':'https://roboticsconference.org/','place':"Delft, Netherlands",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"PACT",'ccfRank':"B",'deadline':"2023-04-01 23:59:59",
+		'timezone':'AoE','id':906,'date':"October 21-October 25, 2023",'link':'https://pact2023.github.io/','place':"Vienna, Austria",'year':'2023'})
+	
+	rows.push({'type':"MX",'shortName':"SMC",'ccfRank':"C",'deadline':"2024-04-08 23:59:59",
+		'timezone':'UTC+8','id':907,'date':"October 7-10, 2024",'link':'https://www.ieeesmc2024.org/','place':"Borneo Convention Centre Kuching, Sarawak, Malaysia",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ECAI",'ccfRank':"B",'deadline':"2024-04-25 23:59:59",
+		'timezone':'UTC-12','id':908,'date':"October 19-24, 2024",'link':'https://www.ecai2024.eu/','place':"Santiago de Compostela",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"ISMAR",'ccfRank':"B",'deadline':"TBD",
+		'timezone':'AoE','id':909,'date':"Oct 16-20, 2023",'link':'https://ismar23.org/','place':"Sydney, Australia",'year':'2023'})
+	
+	rows.push({'type':"DB",'shortName':"RecSys",'ccfRank':"B",'deadline':"2024-04-29 23:59:59",
+		'timezone':'AoE','id':910,'date':"October 14-18, 2024",'link':'https://recsys.acm.org/recsys24','place':"Bari, Italy",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"ADMA",'ccfRank':"C",'deadline':"2023-04-15 23:59:59",
+		'timezone':'UTC-7','id':911,'date':"August 21 - 23, 2023",'link':'https://adma2023.uqcloud.net/index.html','place':"Shenyang, China",'year':'2023'})
+	
+	rows.push({'type':"CG",'shortName':"PG",'ccfRank':"B",'deadline':"2023-06-06 23:59:59",
+		'timezone':'AoE','id':912,'date':"October 10-13, 2023",'link':'https://pg2023.org/','place':"Daejeon, South Korea",'year':'2023'})
+	
+	rows.push({'type':"CG",'shortName':"PRCV",'ccfRank':"C",'deadline':"2023-06-20 23:59:59",
+		'timezone':'UTC+8','id':913,'date':"Oct 13-15, 2023",'link':'https://prcv2023.xmu.edu.cn/','place':"Xiamen, China",'year':'2023'})
+	
+	rows.push({'type':"AI",'shortName':"ICANN",'ccfRank':"C",'deadline':"2024-03-15 23:59:59",
+		'timezone':'AoE','id':914,'date':"Sept 17-20, 2024",'link':'https://e-nns.org/icann2024/','place':"Lugano-Viganello, Switzerland",'year':'2024'})
+	
+	rows.push({'type':"HI",'shortName':"UbiComp/ISWC",'ccfRank':"A",'deadline':"2024-05-01 23:59:59",
+		'timezone':'AoE','id':915,'date':"October 5-9, 2024",'link':'https://www.ubicomp.org/ubicomp-iswc-2024','place':"Melbourne, Australia",'year':'2024'})
+	
+	rows.push({'type':"MX",'shortName':"SIGSPATIAL",'ccfRank':"C",'deadline':"2023-06-16 23:59:59",
+		'timezone':'UTC-7','id':916,'date':"November 13-16, 2023",'link':'http://sigspatial2023.sigspatial.org/','place':"Hamburg, Germany",'year':'2023'})
+	
+	rows.push({'type':"CG",'shortName':"ACM MM Asia",'ccfRank':"C",'deadline':"2023-07-22 23:59:59",
+		'timezone':'AoE','id':917,'date':"December 06-08, 2023",'link':'http://www.mmasia2023.org/','place':"Tainan, Taiwan",'year':'2023'})
+	
+	rows.push({'type':"CG",'shortName':"MMAsia",'ccfRank':"C",'deadline':"2023-07-22 23:59:59",
+		'timezone':'AoE','id':918,'date':"December 06-08, 2023",'link':'http://www.mmasia2023.org/','place':"Tainan, Taiwan",'year':'2023'})
+	
+	rows.push({'type':"CG",'shortName':"IEEE VIS",'ccfRank':"A",'deadline':"2023-03-31 23:59:59",
+		'timezone':'AoE','id':919,'date':"October 22-27, 2023",'link':'https://ieeevis.org/year/2023/welcome','place':"Melbourne, Australia",'year':'2023'})
+	
+	rows.push({'type':"HI",'shortName':"CHI",'ccfRank':"A",'deadline':"2023-09-14 23:59:59",
+		'timezone':'AoE','id':920,'date':"May 11 - May 16, 2024",'link':'http://chi2024.acm.org/','place':"Honolulu, Hawaii, USA",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"CIDR",'ccfRank':"B",'deadline':"2023-07-27 23:59:59",
+		'timezone':'UTC-8','id':921,'date':"Jan 14 - Jan 17, 2024",'link':'https://www.cidrdb.org/cidr2024/','place':"Chaminade, USA",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"KSEM",'ccfRank':"C",'deadline':"2024-02-15 23:59:00",
+		'timezone':'UTC+0','id':922,'date':"Aug 16-18, 2024",'link':'https://ai-edge.net/','place':"Birmingham",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ICONIP",'ccfRank':"C",'deadline':"2024-05-31 23:59:59",
+		'timezone':'UTC-12','id':923,'date':"December 2-6, 2024",'link':'http://iconip2024.org/','place':"Auckland, New Zealand",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"ASP-DAC",'ccfRank':"C",'deadline':"2023-08-04 19:00:00",
+		'timezone':'AoE','id':924,'date':"Jan 22-25, 2024",'link':'https://www.aspdac.com/aspdac2024/','place':"Sondo Convensia, Incheon, Korea",'year':'2024'})
+	
+	rows.push({'type':"CT",'shortName':"LICS",'ccfRank':"A",'deadline':"2023-01-23 23:59:59",
+		'timezone':'AoE','id':925,'date':"June 26-29, 2023",'link':'https://lics.siglog.org/lics23/','place':"Boston University, USA",'year':'2023'})
+	
+	rows.push({'type':"DS",'shortName':"SoCC",'ccfRank':"B",'deadline':"2023-06-09 13:59:00",
+		'timezone':'UTC-7','id':926,'date':"October 30 - November 1, 2023",'link':'https://acmsocc.org/2023/','place':"California, USA",'year':'2023'})
+	
+	rows.push({'type':"AI",'shortName':"CICAI",'ccfRank':"N",'deadline':"2023-06-30 23:59:59",
+		'timezone':'UTC+8','id':927,'date':"July 22-23, 2023",'link':'https://cicai.caai.cn/','place':"Fuzhou, China",'year':'2023'})
+	
+	rows.push({'type':"MX",'shortName':"WINE",'ccfRank':"A",'deadline':"2023-07-07 23:59:59",
+		'timezone':'AoE','id':928,'date':"Dec 04-08, 2023",'link':'https://wine2023.shanghaitech.edu.cn/','place':"Shanghai, China",'year':'2023'})
+	
+	rows.push({'type':"MX",'shortName':"CogSci",'ccfRank':"B",'deadline':"2024-02-01 23:59:59",
+		'timezone':'UTC+8','id':929,'date':"July 24-27, 2024",'link':'https://cognitivesciencesociety.org/cogsci-2024/','place':"Rotterdam, Netherlands",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"3DV",'ccfRank':"C",'deadline':"2023-08-07 23:59:59",
+		'timezone':'UTC-7','id':930,'date':"March 18-21, 2024",'link':'https://3dvconf.github.io/2024/','place':"Davos, Switzerland",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"INDOCRYPZT",'ccfRank':"C",'deadline':"2023-09-01 23:59:59",
+		'timezone':'UTC-12','id':931,'date':"December 10-13, 2023",'link':'https://crsind.in/indocrypt2023/','place':"BITS Pilani Goa, India",'year':'2023'})
+	
+	rows.push({'type':"SC",'shortName':"INDOCRYPT",'ccfRank':"C",'deadline':"2023-09-01 23:59:59",
+		'timezone':'UTC-12','id':932,'date':"December 10-13, 2023",'link':'https://crsind.in/indocrypt2023/','place':"BITS Pilani Goa, India",'year':'2023'})
+	
+	rows.push({'type':"CG",'shortName':"IEEE VR",'ccfRank':"A",'deadline':"2023-10-04 23:59:59",
+		'timezone':'AoE','id':933,'date':"March 16-20, 2024",'link':'http://ieeevr.org/2024/','place':"Orlando, Florida USA",'year':'2024'})
+	
+	rows.push({'type':"DB",'shortName':"SDM",'ccfRank':"B",'deadline':"2023-09-16 15:00:00",
+		'timezone':'UTC-8','id':934,'date':"April 18-20, 2024",'link':'https://www.siam.org/conferences/cm/conference/sdm24','place':"Houston, TX, USA",'year':'2024'})
+	
+	rows.push({'type':"SC",'shortName':"EuroS&P",'ccfRank':"C",'deadline':"2023-11-02 23:59:59",
+		'timezone':'UTC-12','id':935,'date':"July 8-12, 2024",'link':'https://eurosp2024.ieee-security.org/','place':"Vienna, Austria",'year':'2024'})
+	
+	rows.push({'type':"HI",'shortName':"IUI",'ccfRank':"B",'deadline':"2023-10-09 23:59:59",
+		'timezone':'AoE','id':936,'date':"March 18 - March 21, 2024",'link':'https://iui.acm.org/2024/','place':"Greenville, South Carolina USA",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"Eurographics",'ccfRank':"B",'deadline':"2023-10-05 23:59:59",
+		'timezone':'UTC','id':937,'date':"April 22-26, 2024",'link':'https://eg2024.cyens.org.cy/','place':"Limassol, Cyprus",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ALT",'ccfRank':"C",'deadline':"2023-09-26 23:59:59",
+		'timezone':'UTC+8','id':938,'date':"February 25-28, 2024",'link':'http://algorithmiclearningtheory.org/alt2024/','place':"San Diego, California",'year':'2024'})
+	
+	rows.push({'type':"NW",'shortName':"CoNEXT",'ccfRank':"B",'deadline':"2024-06-27 23:59:59",
+		'timezone':'AoE','id':939,'date':"TBD",'link':'https://conferences.sigcomm.org/co-next/2024/#!/home','place':"TBD",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"MSR",'ccfRank':"C",'deadline':"2023-11-17 23:59:59",
+		'timezone':'AoE','id':940,'date':"April 15-16, 2024",'link':'https://conf.researchr.org/home/msr-2024','place':"Lisbon, Portugal",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"PPSN",'ccfRank':"B",'deadline':"2024-04-01 23:59:59",
+		'timezone':'UTC-12','id':941,'date':"September 14-18, 2024",'link':'https://ppsn2024.fh-ooe.at/','place':"University of Applied Sciences Upper Austria, Softwarepark Hagenberg, Austria",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"RTAS",'ccfRank':"B",'deadline':"2023-10-31 11:59:59",
+		'timezone':'AoE','id':942,'date':"May 13-16, 2024",'link':'https://2024.rtas.org/','place':"Hong Kong, China",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"ETS",'ccfRank':"C",'deadline':"2023-12-16 23:59:59",
+		'timezone':'AoE','id':943,'date':"May 20-24, 2024",'link':'https://ets24.ewi.tudelft.nl/','place':"The Hague, Netherlands",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ICPR",'ccfRank':"C",'deadline':"2024-03-20 23:59:59",
+		'timezone':'UTC+0','id':944,'date':"Dec 01-05, 2024",'link':'https://icpr2024.org/','place':"Kolkata, India",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ICCBR",'ccfRank':"B",'deadline':"2024-04-02 00:00:00",
+		'timezone':'UTC-6','id':945,'date':"June 1-4, 2024",'link':'https://www.iccbr2024.org/','place':"Merida, Yucatan, Mexico",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"ICECCS",'ccfRank':"C",'deadline':"2024-01-05 23:59:59",
+		'timezone':'AoE','id':946,'date':"June 19-21, 2024",'link':'https://cyprusconferences.org/iceccs2024/','place':"Limassol, Cyprus",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"ISPASS",'ccfRank':"C",'deadline':"2023-12-15 23:59:59",
+		'timezone':'AoE','id':947,'date':"May 5-7, 2024",'link':'https://ispass.org/ispass2024/','place':"Indianapolis, Indiana",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"GMP",'ccfRank':"C",'deadline':"2023-12-18 23:59:59",
+		'timezone':'UTC','id':948,'date':"June 5-7, 2024",'link':'https://irc.cs.sdu.edu.cn/gmp2024/index.html','place':"Qingdao, China",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"CF",'ccfRank':"C",'deadline':"2024-01-08 23:59:59",
+		'timezone':'AoE','id':949,'date':"May 7-9, 2024",'link':'https://www.computingfrontiers.org/2024/','place':"Ischia, Italy",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"MSST",'ccfRank':"B",'deadline':"2024-01-07 04:59:59",
+		'timezone':'UTC','id':950,'date':"June 3-7, 2024",'link':'https://storageconference.us/index.html','place':"Santa Clara, CA",'year':'2024'})
+	
+	rows.push({'type':"SE",'shortName':"TASE",'ccfRank':"C",'deadline':"2024-02-24 23:59:59",
+		'timezone':'AoE','id':951,'date':"July 29-August 1, 2024",'link':'https://tase2024.github.io/index.html','place':"Guiyang, China",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"NETYS",'ccfRank':"N",'deadline':"2024-03-07 23:59:00",
+		'timezone':'AoE','id':952,'date':"May 29-31, 2024",'link':'https://netys.net/','place':"Rabat, Morocco",'year':'2024'})
+	
+	rows.push({'type':"NW",'shortName':"FORTE",'ccfRank':"C",'deadline':"2024-02-09 23:59:59",
+		'timezone':'AoE','id':953,'date':"June 17-21, 2024",'link':'https://www.discotec.org/2024/forte','place':"Groningen, The Netherlands",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"IJCNN",'ccfRank':"C",'deadline':"2024-01-29 23:59:59",
+		'timezone':'UTC-12','id':954,'date':"June 30 - July 5, 2024",'link':'https://2024.ieeewcci.org/','place':"Yokohama, Japan",'year':'2024'})
+	
+	rows.push({'type':"MX",'shortName':"ICIC",'ccfRank':"C",'deadline':"2024-04-01 23:59:59",
+		'timezone':'UTC+8','id':955,'date':"August 5-8, 2024",'link':'http://www.ic-icc.cn/2024/index.htm','place':"Tianjin, China",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"ICS",'ccfRank':"B",'deadline':"2024-01-18 23:59:59",
+		'timezone':'AoE','id':956,'date':"June 4-7, 2024",'link':'https://ics2024.github.io/','place':"Kyoto University, Kyoto, Japan",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"PODC",'ccfRank':"B",'deadline':"2024-02-15 23:59:59",
+		'timezone':'AoE','id':957,'date':"June 17-21, 2024",'link':'https://www.podc.org/podc2024','place':"Nantes, France",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"ICMR",'ccfRank':"B",'deadline':"2024-02-01 23:59:59",
+		'timezone':'UTC-12','id':958,'date':"June 11-13, 2024",'link':'https://icmr2024.org/index.html','place':"Phuket, Thailand",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"COLM",'ccfRank':"N",'deadline':"2024-03-29 23:59:59",
+		'timezone':'AoE','id':959,'date':"October 7-9, 2024",'link':'https://colmweb.org/cfp.html','place':"TBD",'year':'2024'})
+	
+	rows.push({'type':"AI",'shortName':"ACCV",'ccfRank':"C",'deadline':"2024-07-02 23:59:59",
+		'timezone':'UTC-12','id':960,'date':"December 8-12, 2024",'link':'https://accv2024.org/','place':"Hanoi, Vietnam",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"CGI",'ccfRank':"C",'deadline':"2024-02-10 23:59:00",
+		'timezone':'UTC','id':961,'date':"July 1-5, 2024",'link':'https://www.cgs-network.org/cgi24/','place':"Geneva, Switzerland",'year':'2024'})
+	
+	rows.push({'type':"DS",'shortName':"SYSTOR",'ccfRank':"C",'deadline':"2024-03-13 23:59:59",
+		'timezone':'UTC+1','id':962,'date':"June 17-19, 2024",'link':'https://www.systor.org/2024/','place':"Tel Aviv, Israel",'year':'2024'})
+	
+	rows.push({'type':"NW",'shortName':"APNet",'ccfRank':"C",'deadline':"2024-03-15 23:59:59",
+		'timezone':'UTC-12','id':963,'date':"August 3-4, 2024",'link':'https://conferences.sigcomm.org/events/apnet2024/','place':"Sydney, Australia, co-located with SIGCOMM'24",'year':'2024'})
+	
+	rows.push({'type':"HI",'shortName':"UIST",'ccfRank':"A",'deadline':"2024-03-27 17:00:00",
+		'timezone':'UTC-8','id':964,'date':"October 13-16, 2024",'link':'https://uist.acm.org/2024','place':"Pittsburgh, Pennsylvania, USA",'year':'2024'})
+	
+	rows.push({'type':"CG",'shortName':"CASA",'ccfRank':"C",'deadline':"2024-03-05 23:59:59",
+		'timezone':'AoE','id':965,'date':"June 5-7, 2024",'link':'https://casa2024.wtu.edu.cn/index.htm','place':"Wuhan, China",'year':'2024'})
+	
+	rows.push({'type':"NW",'shortName':"IMC",'ccfRank':"B",'deadline':"2024-05-15 23:59:59",
+		'timezone':'AoE','id':966,'date':"Nov 4-6, 2024",'link':'https://conferences.sigcomm.org/imc/2024/','place':"Madrid, Spain",'year':'2024'})
+	
+
+	query();
+
+	$(".exportToExcel").click(function(e){
+		var table = $(".table2excel");
+		if(table && table.length){
+			$(table).table2excel({
+				exclude: ".noExl",
+				name: "Excel Document Name",
+				filename: "CCF Conference Deadlines.xls",
+				fileext: ".xls",
+				exclude_img: true,
+				exclude_links: false,
+				exclude_inputs: true,
+				preserveColors: true
+			});
+		}
+	});
+
+
+	function query() {
+		var meetingName = $('#meetingName').val();
+		var type = $('#typeFrom').val();
+		var ccfRank = $('#ccfRank').val();
+		var meetingNameReg = new RegExp(meetingName,"i");
+		var typeReg = new RegExp(type,"i");
+		var ccfRankReg = new RegExp(ccfRank,"i");
+		var only_like = false;
+		if($('#kaiguan').attr('xlink:href')==='#icon-kaiguan'){only_like = true}
+		if(type ===''){typeReg  = /./;}
+		if(ccfRank===''){ccfRankReg = /./;}
+		if(meetingName===''){meetingNameReg = /./;}
+		let str = "";
+		var ids=[];
+		var deadlines = [];
+		for (let i = 0; i <rows.length ; i++) {
+			var row = rows[i]
+			if(row.shortName==='NeurIPS'){
+				var row_shortName='NeurIPS|NIPS'
+			}else{
+				row_shortName=row.shortName
+			}
+			if (typeReg.test(row.type) && meetingNameReg.test(row_shortName+" "+row.year) && ccfRankReg.test(row.ccfRank) && ( !only_like || like_meetings.includes(row.id))) {
+
+				var place_arr =row.place.split(',');
+				var place = place_arr[place_arr.length-1];
+				var beijing_deadline_time = +new Date(row.deadline.replace(/-/g, "/"))+timeMap[row.timezone]
+				beijing_deadline = formatDateTime(beijing_deadline_time)
+				var daojishi = countDown_result(beijing_deadline_time,row.id)
+				if(row.deadline==='TBD'){
+					beijing_deadline = 'TBD';
+					daojishi = '待定';
+				}
+				str+="<td align='center'><a href=' "+row.link+"'> "+row.shortName+"&nbsp;"+row.year+"</a> </td>"
+						+"<td align='center'>"+typeMap[row.type]+"</td>"
+						+"<td align='center'>"+row.ccfRank+"</td>"
+						+"<td align='center' type='string'>"+row.date+"</td>"
+						+"<td align='center' type='string' >"+beijing_deadline+"</td>"
+						+"<td align='center' id='countdown"+row.id+"' type='string' class='noExl'>"+daojishi+"</td>"
+						+"<td align='center' title='"+row.place+"' >"+place+"</td>"
+						+"<td align='center' onclick='like("+row.id+")' class='noExl'>"
+				if(!like_meetings.includes(row.id)){
+					str+="<svg class='icon' aria-hidden='true' id='icon"+row.id+"' style='fill:#707070;' >"
+							+"<use xlink:href='#icon-shoucang'></use> </svg> </td> </tr>";
+				}else{
+					str+="<svg class='icon' aria-hidden='true' id='icon"+row.id+"' style='fill:red;'> "
+							+"<use xlink:href='#icon-shoucang'></use> </svg> </td> </tr>";
+				}
+				ids.push(row.id);
+				deadlines.push(beijing_deadline_time);
+			}
+		}
+
+
+		document.getElementById('tbody').innerHTML = str;
+		if(ids.length===0){
+			$("#no-data").show()
+			$("#data-src").hide();
+		}else{
+			$("#no-data").hide();
+			$("#data-src").show()
+		}
+		clearInterval();
+		for (let i = 0; i <ids.length ; i++) {
+			if(deadlines[i]- (+new Date())<0&&document.getElementById("countdown"+ids[i].toString())!==null){
+				document.getElementById("countdown"+ids[i].toString()).innerHTML = '已截稿';
+			}else{
+				setInterval(function(){countDown(deadlines[i],ids[i])}, 1000);
+			}
+		}
+		var resort = true,
+				callback = function() {
+
+					// do something after the updateAll method has completed
+				};
+		$("table").trigger("updateAll", [ resort, callback ]);
+
+	}
+
+	function countDown(inputTime,row_id) {
+		if(document.getElementById("countdown"+row_id.toString())!==null){
+			document.getElementById("countdown"+row_id.toString()).innerHTML = countDown_result(inputTime,row_id);
+		}
+	}
+
+	function countDown_result(inputTime,row_id) {
+		var nowTime = +new Date();
+		var times = (inputTime - nowTime) / 1000;
+		if(times>0){
+			var d = parseInt(times / 60 / 60 / 24);
+			d = d < 10 ? '0' + d : d;
+			var h = parseInt(times / 60 / 60 % 24);
+			h = h < 10 ? "0" + h : h;
+			var m = parseInt(times / 60 % 60);
+			m = m < 10 ? "0" + m : m;
+			var s = parseInt(times % 60);
+			s = s < 10 ? "0" + s : s;
+			return d+"d "+h+"h "+m+"m "+s+"s ";
+		}else{
+			return "已截稿";
+		}
+	}
+
+
+	function kaiguan() {
+		var kaiguan_name = $('#kaiguan').attr('xlink:href');
+		if(kaiguan_name==='#icon-kaiguan'){
+			$('#kaiguan').attr('xlink:href','#icon-kaiguan1');
+			localStorage.setItem('only_like',false);
+			query();
+		}else{
+			localStorage.setItem('only_like',true);
+			$('#kaiguan').attr('xlink:href','#icon-kaiguan');
+			query()
+		}
+	}
+
+
+function like(meetingId) {
+	if($("#icon"+meetingId).css("fill")==="rgb(112, 112, 112)"){
+		like_meetings.push(meetingId);
+		$("#icon"+meetingId).css({"fill":"red"});
+	}else{
+		like_meetings = like_meetings.filter((x) => x !== meetingId);
+		$("#icon"+meetingId).css({"fill":"#707070"});
+	}
+	localStorage.setItem("like_meetings",JSON.stringify(like_meetings));
+}
+
+	function formatDateTime (inputTime){
+		var date = new Date(inputTime);
+		var y = date.getFullYear();
+		var m = date.getMonth() + 1;
+		m = m < 10 ? ('0' + m) : m;
+		var d = date.getDate();
+		d = d < 10 ? ('0' + d) : d;
+		var h = date.getHours();
+		h = h < 10 ? ('0' + h) : h;
+		var minute = date.getMinutes();
+		var second = date.getSeconds();
+		minute = minute < 10 ? ('0' + minute) : minute;
+		second = second < 10 ? ('0' + second) : second;
+		return y + '-' + m + '-' + d + ' ' + h + ':' + minute + ':' + second;
+	}
+
+
+</script>
+</body>
+</html>

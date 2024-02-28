@@ -1,0 +1,7 @@
+@article{fuying-2022-cicai2,
+  title={Reinforcement Learning Based Plug-and-Play Method for Hyperspectral Image Reconstruction},
+  author={Ying Fu, Yingkai Zhang},
+  booktitle = {Artificial Intelligence},
+  year      = {2022},
+  pages     = {466-477}
+}

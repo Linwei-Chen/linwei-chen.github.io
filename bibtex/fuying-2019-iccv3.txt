@@ -1,0 +1,7 @@
+@inproceedings{zhang2019computational,
+  title={Computational hyperspectral imaging based on dimension-discriminative low-rank tensor recovery},
+  author={Zhang, Shipeng and Wang, Lizhi and Fu, Ying and Zhong, Xiaoming and Huang, Hua},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={10183-10192},
+  year={2019}
+}

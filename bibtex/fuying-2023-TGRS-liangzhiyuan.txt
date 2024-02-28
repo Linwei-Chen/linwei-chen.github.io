@@ -1,0 +1,9 @@
+@ARTICLE{10231043,
+  author={Liang, Zhiyuan and Wang, Shuai and Zhang, Tao and Fu, Ying},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Blind Super-Resolution of Single Remotely Sensed Hyperspectral Image}, 
+  year={2023},
+  volume={61},
+  number={},
+  pages={1-14},
+  doi={10.1109/TGRS.2023.3302128}}

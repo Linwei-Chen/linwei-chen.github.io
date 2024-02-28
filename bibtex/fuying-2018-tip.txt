@@ -1,0 +1,8 @@
+@ARTICLE{fuying-2018-tip,
+  author={Y. {Fu} and Y. {Zheng} and H. {Huang} and I. {Sato} and Y. {Sato}},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Hyperspectral Image Super-Resolution With a Mosaic RGB Image}, 
+  year={2018},
+  volume={27},
+  number={11},
+  pages={5539-5552},}

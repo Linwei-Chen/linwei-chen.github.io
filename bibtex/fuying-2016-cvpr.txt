@@ -1,0 +1,7 @@
+@inproceedings{fuying_2016_cvpr,
+  title={Exploiting spectral-spatial correlation for coded hyperspectral image restoration},
+  author={Fu, Ying and Zheng, Yinqiang and Sato, Imari and Sato, Yoichi},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={3727-3736},
+  year={2016}
+}

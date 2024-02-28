@@ -1,0 +1,7 @@
+@inproceedings{han2021IALS,
+    title={Disentangled Face Attribute Editing via Instance-Aware Latent Space Search},
+    author={Yuxuan Han, Jiaolong Yang and Ying Fu},
+    booktitle={International Joint Conference on Artificial Intelligence},
+    year={2021}
+    pages={715-721},
+}

@@ -1,0 +1,8 @@
+@InProceedings{Zou_2021_CVPR,
+    author    = {Zou, Yunhao and Zheng, Yinqiang and Takatani, Tsuyoshi and Fu, Ying},
+    title     = {Learning To Reconstruct High Speed and High Dynamic Range Videos From Events},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {2024-2033}
+}

@@ -1,0 +1,10 @@
+@article{fuying-2021-remotesensing,
+  title={Efficient Hybrid Supervision for Instance Segmentation in Aerial Images},
+  author={Chen, Linwei and Fu, Ying and You, Shaodi and Liu, Hongzhe},
+  journal={Remote Sensing},
+  volume={13},
+  number={2},
+  pages={252--273},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}

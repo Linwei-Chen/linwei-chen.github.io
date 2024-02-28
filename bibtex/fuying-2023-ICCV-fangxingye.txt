@@ -1,0 +1,8 @@
+@InProceedings{Fang_2023_ICCV,
+    author    = {Fang, Xingye and Yang, Yang and Fu, Ying},
+    title     = {Visible-Infrared Person Re-Identification via Semantic Alignment and Affinity Inference},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {11270-11279}
+}

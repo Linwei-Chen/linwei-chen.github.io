@@ -1,0 +1,21 @@
+@article{fuying-2020-tnnls,
+author = {Wei, Kaixuan and Fu, Ying and Huang, Hua},
+year = {2020},
+month = {03},
+pages = {1-13},
+title = {3-D Quasi-Recurrent Neural Network for Hyperspectral Image Denoising},
+volume = {PP},
+journal = {IEEE Transactions on Neural Networks and Learning Systems},
+doi = {10.1109/TNNLS.2020.2978756}
+}
+
+@article{fuying-2020-tnnls,
+  title={3-D quasi-recurrent neural network for hyperspectral image denoising},
+  author={Wei, Kaixuan and Fu, Ying and Huang, Hua},
+  journal={IEEE transactions on neural networks and learning systems},
+  volume={32},
+  number={1},
+  pages={363--375},
+  year={2020},
+  publisher={IEEE}
+}

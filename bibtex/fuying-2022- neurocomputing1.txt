@@ -1,0 +1,8 @@
+@article{CHEN2022131,
+title = {Hybrid supervised instance segmentation by learning label noise suppression},
+journal = {Neurocomputing},
+volume = {496},
+pages = {131-146},
+year = {2022},
+author = {Linwei Chen and Ying Fu and Shaodi You and Hongzhe Liu},
+}

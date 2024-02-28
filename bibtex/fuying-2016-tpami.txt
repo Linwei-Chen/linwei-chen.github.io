@@ -1,0 +1,8 @@
+@ARTICLE{fuying-2016-tpami,
+  author={Y. {Fu} and A. {Lam} and I. {Sato} and T. {Okabe} and Y. {Sato}},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Reflectance and Fluorescence Spectral Recovery via Actively Lit RGB Images}, 
+  year={2016},
+  volume={38},
+  number={7},
+  pages={1313-1326},}

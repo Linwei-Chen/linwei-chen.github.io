@@ -1,0 +1,7 @@
+@inproceedings{li2023pixel,
+  title={Pixel Adaptive Deep Unfolding Transformer for Hyperspectral Image Reconstruction},
+  author={Li, Miaoyu and Fu, Ying and Liu, Ji and Zhang, Yulun},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={12959--12968},
+  year={2023}
+}

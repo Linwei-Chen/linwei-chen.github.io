@@ -1,0 +1,8 @@
+@article{fuying-2023-cje,
+title = {Transformer-Based Under-Sampled Single-Pixel Imaging},
+journal = {Chinese Journal of Electronics},
+volume = {33},
+pages = {1-9},
+year = {2023},
+author = {Ye Tian, Ying Fu, Jun Zhang},
+}

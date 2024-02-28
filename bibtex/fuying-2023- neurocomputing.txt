@@ -1,0 +1,8 @@
+@article{fuying-2023-nerocomputing,
+title = {Deep external and internal learning for noisy compressive sensing},
+journal = {Neurocomputing},
+volume = {531},
+pages = {61-73},
+year = {2023},
+author = {Tao Zhang, Ying Fu, Debing Zhang, Chun Hu},
+}

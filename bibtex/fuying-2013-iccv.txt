@@ -1,0 +1,7 @@
+@inproceedings{fuying-2013-iccv,
+  title={Separating reflective and fluorescent components using high frequency illumination in the spectral domain},
+  author={Fu, Ying and Lam, Antony and Sato, Imari and Okabe, Takahiro and Sato, Yoichi},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={457-464},
+  year={2013}
+}

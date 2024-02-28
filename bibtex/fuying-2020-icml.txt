@@ -1,0 +1,20 @@
+Please give preference to citing the journal, or both the journal and conference. Thanks!
+@inproceedings{fuying-2020-icml,
+  title={Tuning-free plug-and-play proximal algorithm for inverse imaging problems},
+  author={Wei, Kaixuan and Aviles-Rivero, Angelica and Liang, Jingwei and Fu, Ying and Sch{\"o}nlieb, Carola-Bibiane and Huang, Hua},
+  booktitle={International Conference on Machine Learning},
+  pages={10158-10169},
+  year={2020},
+  organization={PMLR}
+}
+
+@article{JMLR:v23:20-1297,
+  author  = {Kaixuan Wei and Angelica Aviles-Rivero and Jingwei Liang and Ying Fu and Hua Huang and Carola-Bibiane Sch{\"o}nlieb},
+  title   = {TFPnP: Tuning-free Plug-and-Play Proximal Algorithms with Applications to Inverse Imaging Problems},
+  journal = {Journal of Machine Learning Research},
+  year    = {2022},
+  volume  = {23},
+  number  = {16},
+  pages   = {1-48},
+  url     = {http://jmlr.org/papers/v23/20-1297.html}
+}

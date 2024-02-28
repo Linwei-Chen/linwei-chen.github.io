@@ -1,0 +1,8 @@
+@InProceedings{Zhou_2021_CVPR,
+    author    = {Zhou, Yuemei and Wu, Gaochang and Fu, Ying and Li, Kun and Liu, Yebin},
+    title     = {Cross-MPI: Cross-Scale Stereo for Image Super-Resolution Using Multiplane Images},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {14842-14851}
+}

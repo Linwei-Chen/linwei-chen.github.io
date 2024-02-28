@@ -1,0 +1,8 @@
+@article{fuying-2023-ol,
+title = {Joint supervised and unsupervised deep learning method for single-pixel imaging},
+journal = {Optics & Laser Technology},
+volume = {162},
+pages = {109278-109287},
+year = {2023},
+author = {Ye Tian, Ying Fu, Jun Zhang},
+}

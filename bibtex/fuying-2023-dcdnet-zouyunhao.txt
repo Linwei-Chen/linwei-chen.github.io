@@ -1,0 +1,7 @@
+@inproceedings{zou2023iterative,
+  title={Iterative Denoiser and Noise Estimator for Self-Supervised Image Denoising},
+  author={Zou, Yunhao and Yan, Chenggang and Fu, Ying},
+  booktitle={Proc. of International Conference on Computer Vision (ICCV)},
+  pages={13265--13274},
+  year={2023}
+}

@@ -1,0 +1,8 @@
+@InProceedings{An_2021_ICCV,
+    author    = {An, Xiang and Zhu, Xuhan and Gao, Yuan and Xiao, Yang and Zhao, Yongle and Feng, Ziyong and Wu, Lan and Qin, Bin and Zhang, Ming and Zhang, Debing and Fu, Ying},
+    title     = {Partial FC: Training 10 Million Identities on a Single Machine},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2021},
+    pages     = {1445-1449}
+}

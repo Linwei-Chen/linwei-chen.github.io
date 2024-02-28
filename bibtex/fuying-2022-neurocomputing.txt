@@ -1,0 +1,7 @@
+@article{fuying-2022-neurocomputing,
+title = {Deep plug-and-play prior for hyperspectral image restoration},
+author = {Zeqiang Lai and Kaixuan Wei and Ying Fu},
+journal = {Neurocomputing},
+volume = {481},
+pages = {281-293},
+year = {2022}}
