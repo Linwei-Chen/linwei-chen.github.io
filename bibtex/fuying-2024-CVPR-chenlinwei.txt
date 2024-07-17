@@ -1,0 +1,7 @@
+@inproceedings{chen2024frequency,
+  title={Frequency-Adaptive Dilated Convolution for Semantic Segmentation},
+  author={Chen, Linwei and Gu, Lin and Zheng, Dezhi and Fu, Ying},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3414--3425},
+  year={2024}
+}
