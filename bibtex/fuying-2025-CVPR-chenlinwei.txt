@@ -1,0 +1,7 @@
+@inproceedings{chen2024frequency,
+  title={Frequency Dynamic Convolution for Dense Image Prediction},
+  author={Chen, Linwei and Gu, Lin and Li, Liang and Yan, Chenggang and Fu, Ying},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1--11},
+  year={2025}
+}
