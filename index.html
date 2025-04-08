@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linwei Chen</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <meta name="description" content="Personal website of Linwei Chen, including profile, publications, and contact information">
+    <meta name="keywords" content="Linwei Chen, Publications, Research, Computer Vision, Deep Learning, Contact">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
     <style>
         body {
-            font-family: 'Times New Roman', serif;
+            font-family: 'Times New Roman', Times, serif;
             line-height: 1.6;
             color: #333;
-            background-color: #fff;
+            background-color: #f8f9fa;
         }
+        
         .navbar {
             padding: 15px 0;
             background-color: #fff;
             border-bottom: 1px solid #eee;
         }
+        
         .navbar-brand {
             font-size: 1.5rem;
             font-weight: bold;
         }
+        
         .nav-link {
             font-size: 1.1rem;
             margin: 0 10px;
         }
+        
         .profile-section {
             padding: 30px 0;
             text-align: center;
         }
+        
         .profile-img {
             width: 150px;
             height: 150px;
@@ -36,50 +47,140 @@
             object-fit: cover;
             margin-bottom: 20px;
         }
+        
         .profile-info {
             font-size: 1.2rem;
             line-height: 1.8;
         }
+        
         .section-title {
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
+        
         .news-item {
             margin-bottom: 15px;
             padding: 10px;
             background-color: #f9f9f9;
             border-radius: 5px;
         }
+        
         .publication-item {
             margin-bottom: 25px;
             padding: 15px;
             background-color: #f9f9f9;
             border-radius: 5px;
         }
+        
         .publication-title {
             font-weight: bold;
             font-size: 1.2rem;
             margin-bottom: 5px;
         }
+        
         .publication-authors {
             margin-bottom: 5px;
         }
+        
         .publication-venue {
             font-style: italic;
             margin-bottom: 10px;
         }
+        
         .publication-links {
             margin-top: 10px;
         }
+        
         .btn-link {
             margin-right: 10px;
         }
+        
         .footer {
             margin-top: 50px;
             padding: 20px 0;
             background-color: #f9f9f9;
             text-align: center;
+        }
+        
+        .year-section {
+            margin-bottom: 40px;
+        }
+        
+        .year-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #dee2e6;
+        }
+        
+        .publication-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .publication-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .publication-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .publication-details {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        
+        .publication-links {
+            margin-top: 8px;
+        }
+        
+        .publication-links a {
+            margin-right: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .publication-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .badge-conference {
+            background-color: #007bff;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            margin-left: 5px;
+        }
+        
+        .badge-journal {
+            background-color: #28a745;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            margin-left: 5px;
+        }
+        
+        .contact-section {
+            padding: 2rem 0;
+        }
+        
+        .contact-info {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            font-family: 'Times New Roman', serif;
+        }
+        
+        .counter-section {
+            text-align: right;
+            margin-top: 2rem;
         }
     </style>
 </head>
@@ -87,17 +188,17 @@
     <!-- Header -->
     <header class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html">HOME</a>
+            <a class="navbar-brand" href="#home">HOME</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="publication.html">PUBLICATION</a>
+                        <a class="nav-link" href="#publications">PUBLICATION</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                        <a class="nav-link" href="#contact">CONTACT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="http://cs.bit.edu.cn/szdw/jsml/js/fy_20161220081302283173/index.htm" target="_blank">中文</a>
@@ -108,7 +209,7 @@
     </header>
 
     <!-- Profile Section -->
-    <section class="profile-section">
+    <section id="home" class="profile-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -152,7 +253,7 @@
         </div>
     </section>
 
-    <!-- Publications Section -->
+    <!-- Selected Publications Section -->
     <section class="container">
         <div class="row">
             <div class="col">
@@ -212,21 +313,228 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- Full Publications Section -->
+    <section id="publications" class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="section-title">All Publications</h3>
+                
+                <section class="year-section">
+                    <h2 class="year-title">2025</h2>
+                    <ul class="publication-list">
+                        <li class="publication-item">
+                            <div class="publication-title">Frequency Dynamic Convolution for Dense Image Prediction</div>
+                            <div class="publication-details">
+                                Linwei Chen, Lin Gu, Liang Li, Chenggang Yan, <strong>Ying Fu*</strong>.
+                                <span class="badge badge-conference">CVPR</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://arxiv.org/abs/2503.18783" target="_blank">[pdf]</a>
+                                <a href="https://github.com/Linwei-Chen/FDConv" target="_blank">[code]</a>
+                                <a href="./bibtex/fuying-2025-CVPR-chenlinwei.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="year-section">
+                    <h2 class="year-title">2024</h2>
+                    <ul class="publication-list">
+                        <li class="publication-item">
+                            <div class="publication-title">Frequency-aware Feature Fusion for Dense Image Prediction</div>
+                            <div class="publication-details">
+                                Linwei Chen, <strong>Ying Fu*</strong>, Lin Gu, Chenggang Yan, Tatsuya Harada, Gao Huang.
+                                <span class="badge badge-journal">TPAMI</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://www.arxiv.org/abs/2408.12879" target="_blank">[pdf]</a>
+                                <a href="https://github.com/Linwei-Chen/FreqFusion" target="_blank">[code]</a>
+                                <a href="./bibtex/fuying-2024-TPAMI-chenlinwei.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <div class="publication-title">Frequency-Adaptive Dilated Convolution for Semantic Segmentation</div>
+                            <div class="publication-details">
+                                <strong>Linwei Chen</strong>, Lin Gu, <i>Ying Fu</i>.
+                                <span class="badge badge-conference">CVPR</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://arxiv.org/abs/2403.05369" target="_blank">[pdf]</a>
+                                <a href="https://github.com/Linwei-Chen/FADC" target="_blank">[code]</a>
+                                <a href="./bibtex/fuying-2024-CVPR-chenlinwei.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <div class="publication-title">When Semantic Segmentation Meets Frequency Aliasing</div>
+                            <div class="publication-details">
+                                <strong>Linwei Chen</strong>, Lin Gu, <i>Ying Fu</i>.
+                                <span class="badge badge-conference">ICLR</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://arxiv.org/abs/2403.09065" target="_blank">[pdf]</a>
+                                <a href="https://github.com/Linwei-Chen/Seg-Aliasing/" target="_blank">[code]</a>
+                                <a href="./bibtex/fuying-2024-ICLR-chenlinwei.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="year-section">
+                    <h2 class="year-title">2023</h2>
+                    <ul class="publication-list">
+                        <li class="publication-item">
+                            <div class="publication-title">Instance Segmentation in the Dark</div>
+                            <div class="publication-details">
+                                <strong>Linwei Chen</strong>, <i>Ying Fu</i>, Kaixuan Wei, Dezhi Zheng, Felix Heide.
+                                <span class="badge badge-journal">IJCV</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://link.springer.com/article/10.1007/s11263-023-01808-8" target="_blank">[pdf]</a>
+                                <a href="https://github.com/Linwei-Chen/LIS/" target="_blank">[code&dataset]</a>
+                                <a href="./bibtex/fuying-2023-IJCV-chenlinwei.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <div class="publication-title">A Large-scale Climate-aware Satellite Image Dataset for Domain Adaptive Land-Cover Semantic Segmentation</div>
+                            <div class="publication-details">
+                                Songlin Liu<sup>*</sup>, <strong>Linwei Chen</strong><sup>*</sup>, Li Zhang, Jun Hu, <i>Ying Fu</i>.
+                                <span class="badge badge-journal">ISPRS Journal of Photogrammetry and Remote Sensing</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://www.sciencedirect.com/science/article/pii/S0924271623002484" target="_blank">[pdf]</a>
+                                <a href="https://github.com/Linwei-Chen/CASID" target="_blank">[code&dataset]</a>
+                                <a href="./bibtex/fuying-2023-ISPRS-chenlinwei.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="year-section">
+                    <h2 class="year-title">2022</h2>
+                    <ul class="publication-list">
+                        <li class="publication-item">
+                            <div class="publication-title">LE-GAN: Unsupervised low-light image enhancement network using attention module and identity invariant loss</div>
+                            <div class="publication-details">
+                                <i>Ying Fu</i>, Yang Hong, <strong>Linwei Chen</strong>, Shaodi You.
+                                <span class="badge badge-journal">Knowledge-Based Systems</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705121011151" target="_blank">[pdf]</a>
+                                <a href="https://github.com/ying-fu/LE-GAN" target="_blank">[code]</a>
+                                <a href="./bibtex/fuying-2022-kbs.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <div class="publication-title">Hybrid supervised instance segmentation by learning label noise suppression</div>
+                            <div class="publication-details">
+                                <strong>Linwei Chen</strong>, <i>Ying Fu*</i>, Shaodi You, Hongzhe Liu.
+                                <span class="badge badge-journal">Neurocomputing</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://www.sciencedirect.com/science/article/pii/S0925231222005574" target="_blank">[pdf]</a>
+                                <a href="https://github.com/ying-fu/hybird_supervision_instance_segmentation" target="_blank">[code]</a>
+                                <a href="./bibtex/fuying-2022-neurocomputing1.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <div class="publication-title">Consistency-Aware Map Generation at Multiple Zoom Levels Using Aerial Image</div>
+                            <div class="publication-details">
+                                <strong>Linwei Chen</strong>, <i>Ying Fu*</i>, Zheng Fang.
+                                <span class="badge badge-journal">IEEE J-Stars</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9764398" target="_blank">[pdf]</a>
+                                <a href="https://github.com/bit-isp/MLM" target="_blank">[code&dataset]</a>
+                                <a href="./bibtex/fuying-2022-jstar.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <div class="publication-title">Level-Aware Consistent Multi-level Map Translation From Satellite Imagery</div>
+                            <div class="publication-details">
+                                <i>Ying Fu*</i>, Zheng Fang, <strong>Linwei Chen</strong>, Tao Song, Defu Lin.
+                                <span class="badge badge-journal">IEEE TGRS</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://ieeexplore.ieee.org/abstract/document/9950295" target="_blank">[pdf]</a>
+                                <a href="./bibtex/fuying-2022-tgrs.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="year-section">
+                    <h2 class="year-title">2021</h2>
+                    <ul class="publication-list">
+                        <li class="publication-item">
+                            <div class="publication-title">Crafting Object Detection in Very Low Light</div>
+                            <div class="publication-details">
+                                Yang Hong, Kaixuan Wei, <strong>Linwei Chen</strong>, <i>Ying Fu*</i>.
+                                <span class="badge badge-conference">BMVC</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://www.bmvc2021-virtualconference.com/conference/papers/paper_0085.html" target="_blank">[pdf]</a>
+                                <a href="https://github.com/ying-fu/LODDataset" target="_blank">[code&dataset]</a>
+                                <a href="./bibtex/fuying-2021-bmvc.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <div class="publication-title">Efficient Hybrid Supervision for Instance Segmentation in Aerial Images</div>
+                            <div class="publication-details">
+                                <strong>Linwei Chen</strong>, <i>Ying Fu</i>, Shaodi You, Hongzhe Liu.
+                                <span class="badge badge-journal">Remote Sensing</span>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://www.mdpi.com/2072-4292/13/2/252" target="_blank">[pdf]</a>
+                                <a href="https://github.com/ying-fu/Efficient-Hybrid-Supervision-for-Instance-Segmentation-in-Aerial-Images" target="_blank">[code]</a>
+                                <a href="./bibtex/fuying-2021-remotesensing.txt">[bibtex]</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
         <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Contact Information</h3>
+                    <p class="contact-info">
+                        <strong>Email:</strong><br>
+                        chenlinwei@bit.edu.cn<br>
+                        charleschen2013@163.com
+                    </p>
+                    <p class="contact-info">
+                        <a href="https://www.zhihu.com/people/EspressoOcean/columns" target="_blank"><strong>Zhihu</strong></a><br>
+                        Uno Whoiam
+                    </p>
+                    <p class="contact-info">
+                        <strong>Address:</strong><br>
+                        No.5, Zhongguancun South Street, Haidian District, Beijing 100081, China
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container">
+            <p>&copy; 2023 Linwei Chen. All rights reserved.</p>
             <p>Click this <a href="ddltools.html">link</a> to obtain information about CCF Conference Deadlines.</p>
-            <p>Last Update: Jun. 26, 2020</p>
+            <p>Last Update: April. 9, 2025</p>
             <p>Website Visits: 
                 <a href="https://www.hitwebcounter.com" target="_blank">
-                    <img src="https://hitwebcounter.com/counter/counter.php?page=100&style=0007&nbdigits=8&type=ip&initCount=43000" alt="Hit Web Counter" border="0" />
-                </a>
+                    <img src="https://hitwebcounter.com/counter/counter.php?page=11715307&style=0006&nbdigits=5&type=page&initCount=8888" title="Counter Widget" Alt="Visit counter For Websites" border="0" /></a>        
+                <a href="http://www4.clustrmaps.com/user/6ee119270" target="_blank"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/www.hci.iis.u-tokyo.ac.jp-~fuying--thumb.jpg"
+                  alt="Locations of visitors to this page" width="80" height="53" /></a>
             </p>
         </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
