@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a final-year Ph.D. candidate at the School of Information and Electronics, Beijing Institute of Technology (BIT), supervised by Prof. <a href="http://cs.bit.edu.cn/szdw/jsml/js/fy_20161220081302283173/index.htm">Ying Fu</a>. I received my M.S. degree from BIT in 2021 and my B.S. degree from China University of Geosciences (Beijing) in 2019. I am actively seeking positions in both academia and industry, starting in the Fall of 2025.
+I received my Ph.D. degree at the School of Information and Electronics & School of Computer Science and Technology, Beijing Institute of Technology (BIT), supervised by Prof. <a href="https://ying-fu.github.io/">Ying Fu</a>. I received my M.S. degree from BIT in 2021 and my B.S. degree from China University of Geosciences (Beijing) in 2019. I am actively seeking positions in both academia and industry, starting in the Fall of 2025.
 
 My research interests primarily lie in computer vision and deep learning, including:
 - Image and Semantic Segmentation
