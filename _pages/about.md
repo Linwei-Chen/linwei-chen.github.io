@@ -20,7 +20,7 @@ redirect_from:
 I received my Ph.D. degree at the School of Information and Electronics & School of Computer Science and Technology, Beijing Institute of Technology (BIT), supervised by Prof. <a href="https://ying-fu.github.io/">Ying Fu</a>. I received my M.S. degree from BIT in 2021 and my B.S. degree from China University of Geosciences (Beijing) in 2019. I am actively seeking positions in both academia and industry, starting in the Fall of 2025.
 
 My research interests primarily lie in computer vision and deep learning, including:
-- Image and Semantic Segmentation
+- Image Segmentation
 - Object Detection
 - Low-light Image Enhancement and Recognition
 - Remote Sensing Image Processing
