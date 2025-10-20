@@ -25,8 +25,10 @@ My research interests primarily lie in computer vision and deep learning, includ
 - Low-light Image Enhancement and Recognition
 - Remote Sensing Image Processing
 - Representation Learning for Transformers & CNNs
+- Medical Large Language Models
 
-You can find my full publication list on my <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'>Google Scholar</a> profile <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'><img src="https://img.shields.io/google-scholar/citations/EGlOtL4AAAAJ?style=flat&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&label=citations"></a>.
+You can find my full publication list on my <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'>Google Scholar</a> profile.
+<!-- <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'><img src="https://img.shields.io/google-scholar/citations/EGlOtL4AAAAJ?style=flat&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&label=citations"></a>. -->
 
 <span class='anchor' id='-education'></span>
 
@@ -41,6 +43,25 @@ You can find my full publication list on my <a href='https://scholar.google.com/
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/FDConv2025cvpr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+**Frequency-Dynamic Attention Modulation for Dense Prediction**  
+**Linwei Chen**, Lin Gu, Ying Fu\*.  
+*International Conference on Computer Vision (ICCV)*, 2025.  
+[[PDF]](https://arxiv.org/abs/2507.12006) [[Code]](https://github.com/Linwei-Chen/FDAM) [[机器之心 Report]](https://mp.weixin.qq.s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='./images/TPAMI2025-SFM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Spatial Frequency Modulation for Semantic Segmentation**  
+**Linwei Chen**, Ying Fu\*, Lin Gu, Dezhi Zheng, Jifeng Dai.  
+*IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2025.  
+[[PDF]](https://arxiv.org/abs/2507.11893) [[IEEE]](https://ieeexplore.ieee.org/document/11095993) [[Code]](https://github.com/Linwei-Chen/SFM) [[BibTeX]](./bibtex/TPAMI2025-SFM.bib)
+
+</div>
+</div>
 
 **Frequency Dynamic Convolution for Dense Image Prediction**  
 **Linwei Chen**, Lin Gu, Liang Li, Chenggang Yan, Ying Fu\*.  
