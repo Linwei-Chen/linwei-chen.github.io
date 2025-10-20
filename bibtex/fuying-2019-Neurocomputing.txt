@@ -1,0 +1,8 @@
+@article{fuying-2019-Neurocomputing,
+title={Simultaneous hyperspectral image super-resolution and geometric alignment with a hybrid camera system},
+author={Fu, Ying and Zheng, Yongrong and Zhang, Lin and Zheng, Yinqiang and Huang, Hua},
+journal={Neurocomputing},
+volume={384},
+pages={282--294},
+year={2020}}
+    

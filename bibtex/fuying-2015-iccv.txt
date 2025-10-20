@@ -1,0 +1,7 @@
+@inproceedings{fuying-2015-iccv,
+  title={Adaptive spatial-spectral dictionary learning for hyperspectral image denoising},
+  author={Fu, Ying and Lam, Antony and Sato, Imari and Sato, Yoichi},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={343-351},
+  year={2015}
+}

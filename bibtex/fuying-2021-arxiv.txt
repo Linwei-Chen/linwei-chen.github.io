@@ -1,0 +1,8 @@
+@misc{yang2021dynamic,
+      title={Dynamic Proximal Unrolling Network for Compressive Imaging}, 
+      author={Yixiao Yang and Ran Tao and Kaixuan Wei and Ying Fu},
+      year={2021},
+      eprint={2107.11007},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}

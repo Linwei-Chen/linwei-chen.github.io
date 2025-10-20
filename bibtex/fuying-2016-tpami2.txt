@@ -1,0 +1,8 @@
+@ARTICLE{fuying-2016-tpami2,
+  author={Y. {Fu} and A. {Lam} and I. {Sato} and T. {Okabe} and Y. {Sato}},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Separating Reflective and Fluorescent Components Using High Frequency Illumination in the Spectral Domain}, 
+  year={2016},
+  volume={38},
+  number={5},
+  pages={965-978},}

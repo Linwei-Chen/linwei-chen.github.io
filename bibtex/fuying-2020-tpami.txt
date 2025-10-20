@@ -1,0 +1,10 @@
+@article{fu2020joint,
+  title={Joint camera spectral response selection and hyperspectral image recovery},
+  author={Fu, Ying and Zhang, Tao and Zheng, Yinqiang and Zhang, Debing and Huang, Hua},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={44},
+  number={1},
+  pages={256-272},
+  year={2022},
+  publisher={IEEE}
+}

@@ -1,0 +1,9 @@
+@article{zheng2022large,
+  title={A large-scale hyperspectral dataset for flower classification},
+  author={Zheng, Yongrong and Zhang, Tao and Fu, Ying},
+  journal={Knowledge-Based Systems},
+  volume={236},
+  pages={107647--107658},
+  year={2022},
+  publisher={Elsevier}
+}

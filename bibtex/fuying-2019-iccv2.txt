@@ -1,0 +1,7 @@
+@inproceedings{xiang2019incremental,
+  title={Incremental learning using conditional adversarial networks},
+  author={Xiang, Ye and Fu, Ying and Ji, Pan and Huang, Hua},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={6619-6628},
+  year={2019}
+}

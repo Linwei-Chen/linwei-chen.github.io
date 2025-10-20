@@ -1,0 +1,6 @@
+@inproceedings{fuying-2022-bmvc,
+  title={Mutual Contrastive Low-rank Learning to Disentangle Whole Slide Image Representations for Glioma Grading},
+  author={Lipei Zhang, Yiran Wei, Ying Fu, Stephen Price, Carola-Bibiane Schönlieb, Chao Li},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year      = {2022}
+}

@@ -1,0 +1,8 @@
+@article{fuying-2023-pr,
+title = {Image manipulation detection by multiple tampering traces and edge artifact enhancement},
+journal = {Pattern Recognition},
+volume = {133},
+pages = {109026-109036},
+year = {2023},
+author = {Xun Lin, Shuai Wang, Jiahao Deng, Ying Fu, Xiao Bai, Xinlei Chen, Xiaolei Qu, Wenzhong Tang}
+}

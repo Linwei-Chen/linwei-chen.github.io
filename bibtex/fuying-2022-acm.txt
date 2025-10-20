@@ -1,0 +1,12 @@
+@inproceedings{10.1145/3503161.3548142,
+author = {Ding, Xin and Takatani, Tsuyoshi and Wang, Zhongyuan and Fu, Ying and Zheng, Yinqiang},
+title = {Event-Guided Video Clip Generation from Blurry Images},
+year = {2022},
+publisher = {Association for Computing Machinery},
+booktitle = {Proceedings of the 30th ACM International Conference on Multimedia},
+pages = {2672–2680},
+numpages = {9},
+keywords = {deep learning, motion deblur, event camera},
+location = {Lisboa, Portugal},
+series = {MM '22}
+}

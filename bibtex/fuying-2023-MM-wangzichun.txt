@@ -1,0 +1,6 @@
+@article{wang2023recurrent,
+  title={Recurrent Self-Supervised Video Denoising with Denser Receptive Field},
+  author={Wang, Zichun and Zhang, Yulun and Zhang, Debing and Fu, Ying},
+  journal={arXiv preprint arXiv:2308.03608},
+  year={2023}
+}

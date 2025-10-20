@@ -1,0 +1,18 @@
+Please give preference to citing the journal, or both the journal and conference. Thanks!
+@article{fuying-2021-tpami,
+  title={Coded hyperspectral image reconstruction using deep external and internal learning},
+  author={Fu, Ying and Zhang, Tao and Wang, Lizhi and Huang, Hua},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={44},
+  number={7},
+  pages={3404-3420},
+  year={2022},
+  publisher={IEEE}
+}
+@inproceedings{zhang2019hyperspectral,
+  title={Hyperspectral image reconstruction using deep external and internal learning},
+  author={Zhang, Tao and Fu, Ying and Wang, Lizhi and Huang, Hua},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={8559--8568},
+  year={2019}
+}

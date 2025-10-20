@@ -1,0 +1,10 @@
+@article{fuying2022scis,
+  title={Plug-and-Play algorithm for under-sampling Fourier single-pixel imaging},
+  author={Ye Tian, Ying Fu, and Jun Zhang},
+  journal={Science China Information Sciences},
+  volume={65},
+  issue={10},
+  pages={1--2},
+  year={2022},
+  publisher={Science China Press}
+}

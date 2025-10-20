@@ -1,0 +1,8 @@
+@InProceedings{Zou_2022_CVPR,
+    author    = {Zou, Yunhao and Fu, Ying},
+    title     = {Estimating Fine-Grained Noise Model via Contrastive Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {12682-12691}
+}

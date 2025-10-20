@@ -1,0 +1,9 @@
+@article{wen2021cross,
+  title={Cross-modal context-gated convolution for multi-modal sentiment analysis},
+  author={Wen, Huanglu and You, Shaodi and Fu, Ying},
+  journal={Pattern Recognition Letters},
+  volume={146},
+  pages={252--259},
+  year={2021},
+  publisher={Elsevier}
+}

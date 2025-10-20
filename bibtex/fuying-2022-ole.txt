@@ -1,0 +1,8 @@
+@article{TIAN2022106970,
+title = {Plug-and-play algorithms for single-pixel imaging},
+journal = {Optics and Lasers in Engineering},
+volume = {154},
+pages = {106970},
+year = {2022},
+author = {Ye Tian and Ying Fu and Jun Zhang},
+}

@@ -1,0 +1,9 @@
+@ARTICLE{9787797,
+  author={Zhang, Tao and Liang, Zhiyuan and Fu, Ying},
+  journal={IEEE Journal of Selected Topics in Signal Processing}, 
+  title={Joint Spatial-Spectral Pattern Optimization and Hyperspectral Image Reconstruction}, 
+  year={2022},
+  volume={16},
+  number={4},
+  pages={636-648},
+  doi={10.1109/JSTSP.2022.3179806}}

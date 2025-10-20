@@ -1,0 +1,7 @@
+@inproceedings{fu2019hyperspectral,
+  title={Hyperspectral image super-resolution with optimized RGB guidance},
+  author={Fu, Ying and Zhang, Tao and Zheng, Yinqiang and Zhang, Debing and Huang, Hua},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={11661-11670},
+  year={2019}
+}

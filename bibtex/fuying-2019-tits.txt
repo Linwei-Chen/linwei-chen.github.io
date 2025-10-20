@@ -1,0 +1,10 @@
+@article{xiang2019global,
+  title={Global topology constraint network for fine-grained vehicle recognition},
+  author={Xiang, Ye and Fu, Ying and Huang, Hua},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={21},
+  number={7},
+  pages={2918--2929},
+  year={2019},
+  publisher={IEEE}
+}

@@ -1,0 +1,8 @@
+@article{yao2020gps,
+  title={Gps-net: Graph-based photometric stereo network},
+  author={Yao, Zhuokun and Li, Kun and Fu, Ying and Hu, Haofeng and Shi, Boxin},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={10306--10316},
+  year={2020}
+}

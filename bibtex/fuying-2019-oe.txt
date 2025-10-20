@@ -1,0 +1,10 @@
+@article{fu2019spectral,
+  title={Spectral reflectance recovery using optimal illuminations},
+  author={Fu, Ying and Zou, Yunhao and Zheng, Yinqiang and Huang, Hua},
+  journal={Optics Express},
+  volume={27},
+  number={21},
+  pages={30502--30516},
+  year={2019},
+  publisher={Optical Society of America}
+}

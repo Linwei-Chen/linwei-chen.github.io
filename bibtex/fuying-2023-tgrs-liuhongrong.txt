@@ -1,0 +1,10 @@
+@ARTICLE{10360444,
+  author={Fu, Ying and Liu, Hongrong and Zou, Yunhao and Wang, Shuai and Li, Zhongxiang and Zheng, Dezhi},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Category-Level Band Learning-Based Feature Extraction for Hyperspectral Image Classification}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-16},
+  keywords={Feature extraction;Data mining;Convolution;Transformers;Hyperspectral imaging;Deep learning;Correlation;Attention mechanism;category-specific property;convolutional neural network (CNN);global property;hyperspectral image (HSI) classification;multiscale feature},
+  doi={10.1109/TGRS.2023.3340517}}

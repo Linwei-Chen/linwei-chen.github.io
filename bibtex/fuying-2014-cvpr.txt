@@ -1,0 +1,7 @@
+@inproceedings{fuying-2014-cvpr,
+  title={Reflectance and fluorescent spectra recovery based on fluorescent chromaticity invariance under varying illumination},
+  author={Fu, Ying and Lam, Antony and Kobashi, Yasuyuki and Sato, Imari and Okabe, Takahiro and Sato, Yoichi},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={2163-2170},
+  year={2014}
+}

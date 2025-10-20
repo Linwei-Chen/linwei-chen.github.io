@@ -1,0 +1,8 @@
+@inproceedings{xiang2019effective,
+  title={An effective network with ConvLSTM for low-light image enhancement},
+  author={Xiang, Yixi and Fu, Ying and Zhang, Lei and Huang, Hua},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
+  pages={221-233},
+  year={2019},
+  organization={Springer}
+}

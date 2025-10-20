@@ -1,0 +1,9 @@
+@article{wei2022tfpnp,
+  title={TFPnP: Tuning-free Plug-and-Play Proximal Algorithms with Applications to Inverse Imaging Problems.},
+  author={Wei, Kaixuan and Avil{\'e}s-Rivero, Angelica I and Liang, Jingwei and Fu, Ying and Huang, Hua and Sch{\"o}nlieb, Carola-Bibiane},
+  journal={J. Mach. Learn. Res.},
+  volume={23},
+  number={16},
+  pages={1--48},
+  year={2022}
+}

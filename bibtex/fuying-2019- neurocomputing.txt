@@ -1,0 +1,9 @@
+@article{wei2019low,
+  title={Low-rank Bayesian tensor factorization for hyperspectral image denoising},
+  author={Wei, Kaixuan and Fu, Ying},
+  journal={Neurocomputing},
+  volume={331},
+  pages={412--423},
+  year={2019},
+  publisher={Elsevier}
+}

@@ -1,0 +1,7 @@
+@inproceedings{wei2019single,
+  title={Single image reflection removal exploiting misaligned training data and network enhancements},
+  author={Wei, Kaixuan and Yang, Jiaolong and Fu, Ying and Wipf, David and Huang, Hua},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={8178-8187},
+  year={2019}
+}

@@ -1,0 +1,7 @@
+@inproceedings{fuying-2015-iccv2,
+  title={Separating fluorescent and reflective components by using a single hyperspectral image},
+  author={Zheng, Yinqiang and Fu, Ying and Lam, Antony and Sato, Imari and Sato, Yoichi},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={3523-3531},
+  year={2015}
+}

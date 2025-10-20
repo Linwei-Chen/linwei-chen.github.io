@@ -1,0 +1,9 @@
+@article{fuying-2020-remotesensing,
+  title={CSR-Net: Camera Spectral Response Network for Dimensionality Reduction and Classification in Hyperspectral Imagery},
+  author={Zou, Yunhao and Fu, Ying and Zheng, Yinqiang and Li, Wei},
+  journal={Remote Sensing},
+  volume={12},
+  number={20},
+  pages={3294--3314},
+  year={2020}
+}

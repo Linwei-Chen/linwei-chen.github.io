@@ -1,0 +1,6 @@
+@InProceedings{Zhang_2021_ICCV,
+    author    = {Zhang, Tao and Fu, Ying and Li, Cheng},
+    title     = {Hyperspectral Image Denoising With Realistic Data},
+    booktitle = {British Machine Vision Conference (BMVC)},
+    year      = {2021}
+}

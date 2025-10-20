@@ -1,0 +1,8 @@
+@InProceedings{Zhang_2022_CVPR,
+    author    = {Zhang, Fan and You, Shaodi and Li, Yu and Fu, Ying},
+    title     = {HSI-Guided Intrinsic Image Decomposition for Outdoor Scenes},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {313-322}
+}

@@ -1,0 +1,8 @@
+@ARTICLE{9540226,
+  author={Fu, Ying and Liang, Shuaizhe and Chen, Dongdong and Chen, Zhanlong},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Translation of Aerial Image Into Digital Map via Discriminative Segmentation and Creative Generation}, 
+  year={2022},
+  volume={60},
+  pages={1-15},
+  doi={10.1109/TGRS.2021.3110894}}
