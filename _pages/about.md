@@ -126,6 +126,25 @@ You can find my full publication list on my <a href='https://scholar.google.com/
 - *2022* Beijing Institute of Technology Doctoral Special Scholarship
 - *2021* Rocket Force "Intelligent Arrow - Fire Eye" AI Challenge, 7th Place Nationally (Excellence Award)
 
+<span class='anchor' id='-professional-service'></span>
+# 💬 Professional Service
+
+**Journal Reviewer**
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+- IEEE Transactions on Image Processing (TIP)
+- International Journal of Computer Vision (IJCV)
+- ISPRS Journal of Photogrammetry and Remote Sensing
+- Pattern Recognition
+
+**Conference Reviewer**
+- AAAI Conference on Artificial Intelligence (AAAI) 2025, 2026
+- British Machine Vision Conference (BMVC) 2023, 2025
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023, 2024, 2025
+- European Conference on Computer Vision (ECCV) 2024
+- ACM International Conference on Multimedia (MM) 2025
+- Conference on Neural Information Processing Systems (NeurIPS) 2025, 2026
+- IEEE Winter Conference on Applications of Computer Vision (WACV) 2026
+
 <span class='anchor' id='-patents'></span>
 # 📜 Patents
-- I have 5 pending national patents, with 2 granted.
+- I have 5 pending national patents, with 3 granted.
