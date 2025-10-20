@@ -31,7 +31,7 @@ You can find my full publication list on my <a href='https://scholar.google.com/
 <span class='anchor' id='-education'></span>
 
 # 🎓 Education
-- *2021.09 - 2025.06 (Expected)*, <a href="https://english.bit.edu.cn/"><img class="svg" src="/images/BIT_logo.svg" width="23pt"></a> Beijing Institute of Technology, Ph.D. in Electronic Information
+- *2021.09 - 2025.06*, <a href="https://english.bit.edu.cn/"><img class="svg" src="/images/BIT_logo.svg" width="23pt"></a> Beijing Institute of Technology, Ph.D. in Electronic Information
 - *2019.09 - 2021.06*, <a href="https://english.bit.edu.cn/"><img class="svg" src="/images/BIT_logo.svg" width="23pt"></a> Beijing Institute of Technology, M.S. in Software Engineering
 - *2014.09 - 2019.06*, <a href="https://en.cugb.edu.cn/"><img class="svg" src="/images/CUGB_logo.svg" width="20pt"></a> China University of Geosciences (Beijing), B.S. in Mechanical Engineering
 
