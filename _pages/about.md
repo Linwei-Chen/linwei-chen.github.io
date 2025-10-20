@@ -41,7 +41,7 @@ You can find my full publication list on my <a href='https://scholar.google.com/
 
 # 📝 Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/FDConv2025cvpr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='./images/ICCV2025-FDAM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Frequency-Dynamic Attention Modulation for Dense Prediction**  
@@ -62,6 +62,9 @@ You can find my full publication list on my <a href='https://scholar.google.com/
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/FDConv2025cvpr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 **Frequency Dynamic Convolution for Dense Image Prediction**  
 **Linwei Chen**, Lin Gu, Liang Li, Chenggang Yan, Ying Fu\*.  
