@@ -129,21 +129,22 @@ You can find my full publication list on my <a href='https://scholar.google.com/
 <span class='anchor' id='-professional-service'></span>
 # 💬 Professional Service
 
-**Journal Reviewer**
+### Journal Reviewer
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 - IEEE Transactions on Image Processing (TIP)
 - International Journal of Computer Vision (IJCV)
-- ISPRS Journal of Photogrammetry and Remote Sensing
-- Pattern Recognition
+- ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
+- Pattern Recognition (PR)
 
-**Conference Reviewer**
-- AAAI Conference on Artificial Intelligence (AAAI) 2025, 2026
-- British Machine Vision Conference (BMVC) 2023, 2025
+### Conference Reviewer
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023, 2024, 2025
+- IEEE/CVF International Conference on Computer Vision (ICCV) 2025
 - European Conference on Computer Vision (ECCV) 2024
-- ACM International Conference on Multimedia (MM) 2025
+- AAAI Conference on Artificial Intelligence (AAAI) 2025, 2026
 - Conference on Neural Information Processing Systems (NeurIPS) 2025, 2026
-- IEEE Winter Conference on Applications of Computer Vision (WACV) 2026
+- British Machine Vision Conference (BMVC) 2023, 2024, 2025
+- ACM Multimedia Conference (MM) 2025
+- IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026
 
 <span class='anchor' id='-patents'></span>
 # 📜 Patents
