@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I received my Ph.D. degree at the School of Information and Electronics & School of Computer Science and Technology, Beijing Institute of Technology (BIT), supervised by Prof. <a href="https://ying-fu.github.io/">Ying Fu</a>. I received my M.S. degree from BIT in 2021 and my B.S. degree from China University of Geosciences (Beijing) in 2019. I am actively seeking positions in both academia and industry, starting in the Fall of 2025.
+I received my Ph.D. degree at the School of Information and Electronics & School of Computer Science and Technology, Beijing Institute of Technology (BIT), supervised by Prof. <a href="https://ying-fu.github.io/">Ying Fu</a>. I received my M.S. degree from BIT in 2021 and my B.S. degree from China University of Geosciences (Beijing) in 2019. 
 
 My research interests primarily lie in computer vision and deep learning, including:
 - Image Segmentation
@@ -29,6 +29,10 @@ My research interests primarily lie in computer vision and deep learning, includ
 
 You can find my full publication list on my <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'>Google Scholar</a> profile.
 <!-- <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'><img src="https://img.shields.io/google-scholar/citations/EGlOtL4AAAAJ?style=flat&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&label=citations"></a>. -->
+
+I am open for collaborations in research, especially in the fields of Image Understanding, Representation Learning and Medical LLMs. Please don’t hesitate to get in touch if my research interests you.
+
+I am actively seeking positions in both academia and industry, starting in the Fall of 2025.
 
 <span class='anchor' id='-education'></span>
 
