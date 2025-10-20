@@ -120,7 +120,7 @@ You can find my full publication list on my <a href='https://scholar.google.com/
 
 <span class='anchor' id='-awards'></span>
 # 🏅 Awards and Honors
-- *2024* National Scholarship for Doctoral Students
+- *2024* China National Scholarship for Doctoral Students, Ministry of Education of the People’s Republic of China 
 - *2024* CVPR 2024 PBDL International Challenge, Low-Light Track: **2nd Place** (Segmentation), **3rd Place** (Detection)
 - *2024* BMVC 2024 Outstanding Reviewer
 - *2022* Beijing Institute of Technology Doctoral Special Scholarship
