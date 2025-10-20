@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "唐健"
+title                    : "陈林蔚"
 description              : "电磁无损检测"
-repository               : "tangjyan/tangjyan.github.io"
+repository               : "Linwei-Chen/linwei-chen.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -161,3 +161,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
