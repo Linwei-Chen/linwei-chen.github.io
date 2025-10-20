@@ -26,7 +26,7 @@ My research interests primarily lie in computer vision and deep learning, includ
 - Remote Sensing Image Processing
 - Representation Learning for Transformers & CNNs
 
-You can find my full publication list on my <a href='https://scholar.google.com/citations?user=_3a_i5AAAAAJ'>Google Scholar</a> <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+You can find my full publication list on my <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'>Google Scholar</a> profile <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'><img src="https://img.shields.io/google-scholar/citations/EGlOtL4AAAAJ?style=flat&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&label=citations"></a>.
 
 <span class='anchor' id='-education'></span>
 
