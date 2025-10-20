@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "陈林蔚"
-description              : "Computer Vision"
+title                    : "Linwei Chen (陈林蔚)"
+description              : "Ph.D. Candidate in Computer Vision at Beijing Institute of Technology"
 repository               : "Linwei-Chen/linwei-chen.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -15,40 +15,40 @@ google_scholar_stats_use_cdn : false
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  fQZQD0EwLaSOrp3EbALt2rjxHEY9pUvWuh1fS96xgNk # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   : 56D1B3DBCF345410DA9431AFE01788E7 # get bing_site_verification from https://www.bing.com/webmasters/about
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "陈林蔚"
-  avatar           : "images/chenlinwei.jpg"
-  bio              : "华中科技大学"
-  location         : "湖北 武汉"
-  employer         : #"Hefei General Machinery Research Institute"
+  name             : "Linwei Chen (陈林蔚)"
+  avatar           : "images/linwei-chen.JPG"
+  bio              : "Ph.D. Candidate at Beijing Institute of Technology."
+  location         : "Beijing, China"
+  employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=EGlOtL4AAAAJ&hl=zh-CN"
-  email            : "tangj@hust.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Jian-Tang-53"
-  uri              : 
+  googlescholar    : "https://scholar.google.com/citations?user=EGlOtL4AAAAJ"
+  email            : "chenlinwei@bit.edu.cn"
+  researchgate     :
+  uri              : "https://linwei-chen.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "tangjyan"
+  github           : "Linwei-Chen"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0001-9658-209X"
+  linkedin         :
+  dblp             :
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : 
@@ -161,4 +161,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
