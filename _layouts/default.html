@@ -29,14 +29,21 @@ layout: compress
 
     {% include scripts.html %}
 
-<div class="footer_site">
-<hr/>
-<div class="footer_copyright">
-  © 2025 · Linwei Chen | 基于&nbsp
-  <a class="page_a"  href="https://linwei-chen.github.io/">
-  acad
-  </a>&nbsp模板
-</div>
-</div>
+    <!-- Footer starts here -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container">
+            <p>&copy; {{ site.time | date: '%Y' }} Linwei Chen. All rights reserved.</p>
+            <p>Click this <a href="ddltools.html">link</a> to obtain information about CCF Conference Deadlines.</p>
+            <p>Last Update: April. 9, 2025</p>
+            <p>Website Visits: 
+                <a href="https://www.hitwebcounter.com" target="_blank">
+                    <img src="https://hitwebcounter.com/counter/counter.php?page=11715307&style=0006&nbdigits=5&type=page&initCount=8888" title="Counter Widget" Alt="Visit counter For Websites" border="0" /></a>        
+                <a href="http://www4.clustrmaps.com/user/6ee119270" target="_blank"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/www.hci.iis.u-tokyo.ac.jp-~fuying--thumb.jpg"
+                  alt="Locations of visitors to this page" width="80" height="53" /></a>
+            </p>
+        </div>
+    </footer>
+    <!-- Footer ends here -->
+
   </body>
 </html>
