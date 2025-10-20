@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "陈林蔚"
-description              : "电磁无损检测"
+description              : "Computer Vision"
 repository               : "Linwei-Chen/linwei-chen.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "唐健"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/chenlinwei.jpg"
   bio              : "华中科技大学"
   location         : "湖北 武汉"
   employer         : #"Hefei General Machinery Research Institute"
