@@ -51,7 +51,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Frequency-Dynamic Attention Modulation for Dense Prediction**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *International Conference on Computer Vision (ICCV)*, 2025.  
-[[PDF]](https://arxiv.org/abs/2507.12006) [[Code]](https://github.com/Linwei-Chen/FDAM) [[机器之心 Report]](https://mp.weixin.qq.s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
+[[PDF]](https://arxiv.org/abs/2507.12006) [[Code]](https://github.com/Linwei-Chen/FDAM) [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
 
 </div>
 </div>
