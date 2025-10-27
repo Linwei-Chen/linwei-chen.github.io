@@ -15,5 +15,8 @@ main:
   - title: "Professional Service"
     url: "/#-professional-service"
 
+  - title: "Teaching"
+    url: "/#-teaching"
+
   - title: "Patents"
     url: "/#-patents"

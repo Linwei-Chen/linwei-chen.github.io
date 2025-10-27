@@ -150,6 +150,10 @@ I am actively seeking positions in both academia and industry, starting in the F
 - ACM Multimedia Conference (MM) 2025
 - IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026
 
+<span class='anchor' id='-teaching'></span>
+# 🧑‍🏫 Teaching
+- Teaching Assistant, *Computer Vision*, Beijing Institute of Technology, 2021 - 2024 Fall.
+
 <span class='anchor' id='-patents'></span>
 # 📜 Patents
-- I have 5 pending national patents, with 3 granted.
+- I have 8 pending national patents, with 3 granted.
