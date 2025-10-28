@@ -87,7 +87,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 
 **Frequency-aware Feature Fusion for Dense Image Prediction**  
 **Linwei Chen**, Ying Fu\*, Lin Gu, Chenggang Yan, Tatsuya Harada, Gao Huang.  
-*IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2024. (**WOS citation, top 0.8%**)  
+*IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2024. (**[WOS citation, top 0.3%](./images/TPAMI2024-FreqFusion-WOS.png)**)  
 [[PDF]](https://www.arxiv.org/abs/2408.12879) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/20512332940) [[Code]](https://github.com/Linwei-Chen/FreqFusion) [[BibTeX]](./bibtex/fuying-2024-TPAMI-chenlinwei.txt)
 
 </div>
