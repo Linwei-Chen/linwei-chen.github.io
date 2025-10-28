@@ -55,6 +55,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Frequency-Dynamic Attention Modulation for Dense Prediction**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *International Conference on Computer Vision (ICCV)*, 2025.  
+*This paper introduces a novel, frequency-dynamic attention mechanism to enhance feature representation for dense prediction tasks.*
 [[PDF]](https://arxiv.org/abs/2507.12006) <a href='https://github.com/Linwei-Chen/FDAM'><img src="https://img.shields.io/github/stars/Linwei-Chen/FDAM?style=social" alt="Stars"></a> [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
 
 </div>
@@ -67,6 +68,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Linwei Chen**, Ying Fu\*, Lin Gu, Dezhi Zheng, Jifeng Dai.  
 *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2025.  
 [[PDF]](https://arxiv.org/abs/2507.11893) [[IEEE]](https://ieeexplore.ieee.org/document/11095993) [[公众号]](https://mp.weixin.qq.com/s/Q50ViJ22Gikb3CfI_LDIFw) <a href='https://github.com/Linwei-Chen/SFM'><img src="https://img.shields.io/github/stars/Linwei-Chen/SFM?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/TPAMI2025-SFM.bib)
+*We propose a novel method to modulate features using spatial frequency information, achieving stronger representations for semantic segmentation.*
 
 </div>
 </div>
@@ -78,6 +80,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Linwei Chen**, Lin Gu, Liang Li, Chenggang Yan, Ying Fu\*.  
 *IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2025.  
 [[PDF]](https://arxiv.org/abs/2503.18783) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/32726185863) <a href='https://github.com/Linwei-Chen/FDConv'><img src="https://img.shields.io/github/stars/Linwei-Chen/FDConv?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2025-CVPR-chenlinwei.txt)
+*Presenting a parameter-efficient dynamic convolution (FDConv) operating in the frequency domain, enabling 64× kernels without increasing parameter cost.*
 
 </div>
 </div>
@@ -88,8 +91,9 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Frequency-aware Feature Fusion for Dense Image Prediction**  
 **Linwei Chen**, Ying Fu\*, Lin Gu, Chenggang Yan, Tatsuya Harada, Gao Huang.  
 *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2024. 
-(**[WOS Citation Top 0.3%](./images/TPAMI2024-FreqFusion-WOS.png)**, **<a href="http://www.ic-icc.cn/2025/Highlight_Paper_Speakers.php">ICIC2025 Invited Hilight Paper</a>**)  
+(**<span style="color:red">[WOS Citation Top 0.3%]</span>**, **<a href="http://www.ic-icc.cn/2025/Highlight_Paper_Speakers.php"><span style="color:red">ICIC2025 Invited Hilight Paper</span></a>**)  
 [[PDF]](https://www.arxiv.org/abs/2408.12879) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/20512332940) <a href='https://github.com/Linwei-Chen/FreqFusion'><img src="https://img.shields.io/github/stars/Linwei-Chen/FreqFusion?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2024-TPAMI-chenlinwei.txt)
+*This work tackles feature fusion by analyzing frequency characteristics, proposing a new method to effectively combine features for dense prediction.*
 
 </div>
 </div>
@@ -100,8 +104,9 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Frequency-Adaptive Dilated Convolution for Semantic Segmentation**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024. 
-(**Highlight Poster, Acceptance Rate 2.8%**, **[WOS Citation Top 0.2%](./images/CVPR20224-FADC-WOS.png)**)  
+(**<span style="color:red">Highlight Poster, Acceptance Rate 2.8%</span>**, **<span style="color:red">[WOS Citation Top 0.2%]</span>**)  
 [[PDF]](https://arxiv.org/abs/2403.05369) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/719255929) <a href='https://github.com/Linwei-Chen/FADC'><img src="https://img.shields.io/github/stars/Linwei-Chen/FADC?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2024-CVPR-chenlinwei.txt)
+*We introduce a frequency-adaptive dilated convolution that adjusts its receptive field dynamically, overcoming limitations of standard dilated convolutions.*
 
 </div>
 </div>
@@ -113,6 +118,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *International Conference on Learning Representations (ICLR)*, 2024.  
 [[PDF]](https://openreview.net/pdf?id=SYBdkHcXXK) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/678596052) <a href='https://github.com/Linwei-Chen/Seg-Aliasing'><img src="https://img.shields.io/github/stars/Linwei-Chen/Seg-Aliasing?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2024-ICLR-chenlinwei.txt)
+*This work provides the first systematic study of the frequency aliasing and hard pixel problem in semantic segmentation and proposes an effective solution.*
 
 </div>
 </div>
@@ -123,8 +129,10 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Instance Segmentation in the Dark**  
 **Linwei Chen**, Ying Fu\*, Kaixuan Wei, Dezhi Zheng, Felix Heide.  
 *International Journal of Computer Vision (IJCV)*, 2023.
-(**[WOS Citation Top 3.8%](./images/IJCV2023-segindark-WOS.png)**)  
+(**<span style="color:red">[WOS Citation Top 3.8%]</span>**)  
+*This paper tackles the challenging task of instance segmentation in extreme low-light conditions by introducing a new dataset and a specialized method.*
 [[PDF]](https://link.springer.com/article/10.1007/s11263-023-01808-8) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/656570195) <a href='https://github.com/Linwei-Chen/LIS'><img src="https://img.shields.io/github/stars/Linwei-Chen/LIS?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2023-IJCV-chenlinwei.txt)
+
 
 </div>
 </div>
