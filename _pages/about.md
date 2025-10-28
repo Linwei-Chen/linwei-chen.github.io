@@ -47,7 +47,6 @@ I am actively seeking positions in both academia and industry, starting in the F
 - *2014.09 - 2019.06*, <a href="https://en.cugb.edu.cn/"><img class="svg" src="/images/CUGB_logo.svg" width="20pt"></a> China University of Geosciences (Beijing), B.S. in Mechanical Engineering
 
 <span class='anchor' id='-publications'></span>
-
 # 📝 Selected Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='./images/ICCV2025-FDAM.png' alt="sym" width="100%"></div></div>
@@ -56,7 +55,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Frequency-Dynamic Attention Modulation for Dense Prediction**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *International Conference on Computer Vision (ICCV)*, 2025.  
-[[PDF]](https://arxiv.org/abs/2507.12006) [[Code]](https://github.com/Linwei-Chen/FDAM) [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
+[[PDF]](https://arxiv.org/abs/2507.12006) <a href='https://github.com/Linwei-Chen/FDAM'><img src="https://img.shields.io/github/stars/Linwei-Chen/FDAM?style=social" alt="Stars"></a> [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
 
 </div>
 </div>
@@ -67,7 +66,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Spatial Frequency Modulation for Semantic Segmentation**  
 **Linwei Chen**, Ying Fu\*, Lin Gu, Dezhi Zheng, Jifeng Dai.  
 *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2025.  
-[[PDF]](https://arxiv.org/abs/2507.11893) [[IEEE]](https://ieeexplore.ieee.org/document/11095993) [[公众号]](https://mp.weixin.qq.com/s/Q50ViJ22Gikb3CfI_LDIFw) [[Code]](https://github.com/Linwei-Chen/SFM) [[BibTeX]](./bibtex/TPAMI2025-SFM.bib)
+[[PDF]](https://arxiv.org/abs/2507.11893) [[IEEE]](https://ieeexplore.ieee.org/document/11095993) [[公众号]](https://mp.weixin.qq.com/s/Q50ViJ22Gikb3CfI_LDIFw) <a href='https://github.com/Linwei-Chen/SFM'><img src="https://img.shields.io/github/stars/Linwei-Chen/SFM?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/TPAMI2025-SFM.bib)
 
 </div>
 </div>
@@ -78,7 +77,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Frequency Dynamic Convolution for Dense Image Prediction**  
 **Linwei Chen**, Lin Gu, Liang Li, Chenggang Yan, Ying Fu\*.  
 *IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2025.  
-[[PDF]](https://arxiv.org/abs/2503.18783) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/32726185863) [[Code]](https://github.com/Linwei-Chen/FDConv) [[BibTeX]](./bibtex/fuying-2025-CVPR-chenlinwei.txt)
+[[PDF]](https://arxiv.org/abs/2503.18783) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/32726185863) <a href='https://github.com/Linwei-Chen/FDConv'><img src="https://img.shields.io/github/stars/Linwei-Chen/FDConv?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2025-CVPR-chenlinwei.txt)
 
 </div>
 </div>
@@ -90,7 +89,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Linwei Chen**, Ying Fu\*, Lin Gu, Chenggang Yan, Tatsuya Harada, Gao Huang.  
 *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2024. 
 (**[WOS Citation Top 0.3%](./images/TPAMI2024-FreqFusion-WOS.png)**, **<a href="http://www.ic-icc.cn/2025/Highlight_Paper_Speakers.php">ICIC2025 Invited Hilight Paper</a>**)  
-[[PDF]](https://www.arxiv.org/abs/2408.12879) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/20512332940) [[Code]](https://github.com/Linwei-Chen/FreqFusion) [[BibTeX]](./bibtex/fuying-2024-TPAMI-chenlinwei.txt)
+[[PDF]](https://www.arxiv.org/abs/2408.12879) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/20512332940) <a href='https://github.com/Linwei-Chen/FreqFusion'><img src="https://img.shields.io/github/stars/Linwei-Chen/FreqFusion?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2024-TPAMI-chenlinwei.txt)
 
 </div>
 </div>
@@ -101,8 +100,8 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Frequency-Adaptive Dilated Convolution for Semantic Segmentation**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024. 
-(**Highligh Poster, Acceptance Rate 2.8%**, **[WOS Citation Top 0.2%](./images/CVPR20224-FADC-WOS.png)**)  
-[[PDF]](https://arxiv.org/abs/2403.05369) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/719255929) [[Code]](https://github.com/Linwei-Chen/FADC) [[BibTeX]](./bibtex/fuying-2024-CVPR-chenlinwei.txt)
+(**Highlight Poster, Acceptance Rate 2.8%**, **[WOS Citation Top 0.2%](./images/CVPR20224-FADC-WOS.png)**)  
+[[PDF]](https://arxiv.org/abs/2403.05369) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/719255929) <a href='https://github.com/Linwei-Chen/FADC'><img src="https://img.shields.io/github/stars/Linwei-Chen/FADC?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2024-CVPR-chenlinwei.txt)
 
 </div>
 </div>
@@ -113,7 +112,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **When Semantic Segmentation Meets Frequency Aliasing**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *International Conference on Learning Representations (ICLR)*, 2024.  
-[[PDF]](https://openreview.net/pdf?id=SYBdkHcXXK) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/678596052) [[Code]](https://github.com/Linwei-Chen/Seg-Aliasing/) [[BibTeX]](./bibtex/fuying-2024-ICLR-chenlinwei.txt)
+[[PDF]](https://openreview.net/pdf?id=SYBdkHcXXK) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/678596052) <a href='https://github.com/Linwei-Chen/Seg-Aliasing'><img src="https://img.shields.io/github/stars/Linwei-Chen/Seg-Aliasing?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2024-ICLR-chenlinwei.txt)
 
 </div>
 </div>
@@ -124,9 +123,8 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Instance Segmentation in the Dark**  
 **Linwei Chen**, Ying Fu\*, Kaixuan Wei, Dezhi Zheng, Felix Heide.  
 *International Journal of Computer Vision (IJCV)*, 2023.
-
 (**[WOS Citation Top 3.8%](./images/IJCV2023-segindark-WOS.png)**)  
-[[PDF]](https://link.springer.com/article/10.1007/s11263-023-01808-8) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/656570195) [[Code & Dataset]](https://github.com/Linwei-Chen/LIS/) [[BibTeX]](./bibtex/fuying-2023-IJCV-chenlinwei.txt)
+[[PDF]](https://link.springer.com/article/10.1007/s11263-023-01808-8) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/656570195) <a href='https://github.com/Linwei-Chen/LIS'><img src="https://img.shields.io/github/stars/Linwei-Chen/LIS?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2023-IJCV-chenlinwei.txt)
 
 </div>
 </div>
