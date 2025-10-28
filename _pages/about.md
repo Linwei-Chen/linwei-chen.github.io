@@ -36,6 +36,7 @@ I am open for collaborations in research, especially in the fields of Image Unde
 
 I am actively seeking positions in both academia and industry, starting in the Fall of 2025.
 
+<span class='anchor' id='-cv'></span>
 **[Download my CV here](./_pages/Linwei_Chen_CV.pdf)**
 
 <span class='anchor' id='-education'></span>
