@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I received my Ph.D. degree at the School of Information and Electronics & School of Computer Science and Technology, Beijing Institute of Technology (BIT), supervised by Prof. <a href="https://ying-fu.github.io/">Ying Fu</a>. 
-I am also fortunate to collaborate closely with <a href="https://zhouhy.org/">Hong-yu Zhou</a> and <a href="https://sites.google.com/view/linguedu/home">Lin Gu</a> (RIKEN AIP / The University of Tokyo). 
+I am also fortunate to collaborate closely with <a href="https://zhouhy.org/">Hong-yu Zhou</a> and <a href="https://sites.google.com/view/linguedu/home">Lin Gu</a>. 
 I received my M.S. degree from BIT in 2021 and my B.S. degree from China University of Geosciences (Beijing) in 2019. 
 
 My research interests primarily lie in computer vision and deep learning, including:
@@ -140,7 +140,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 
 [[PDF]](https://link.springer.com/article/10.1007/s11263-023-01808-8) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/656570195) <a href='https://github.com/Linwei-Chen/LIS'><img src="https://img.shields.io/github/stars/Linwei-Chen/LIS?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/fuying-2023-IJCV-chenlinwei.txt)
 
-🌚 *Tackling the challenging task of instance segmentation in extreme low-light conditions by introducing a new dataset **Low-light Instance Segmentation (LIS)** and a specialized method.*
+🌚 *Tackling the challenging task of instance segmentation in extreme low-light conditions by introducing a new dataset **Low-light Instance Segmentation (LIS)** and a learning framework again feature noise.*
 
 
 </div>
