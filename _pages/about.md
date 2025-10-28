@@ -22,8 +22,8 @@ I am also fortunate to collaborate closely with <a href="https://zhouhy.org/">Ho
 I received my M.S. degree from BIT in 2021 and my B.S. degree from China University of Geosciences (Beijing) in 2019. 
 
 My research interests primarily lie in computer vision and deep learning, including:
-- Image Segmentation
-- Object Detection
+- Frequency Learning
+- Image Segmentation, Object Detection
 - Low-light Image Enhancement and Recognition
 - Remote Sensing Image Processing
 - Representation Learning for Transformers & CNNs
