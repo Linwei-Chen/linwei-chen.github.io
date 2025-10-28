@@ -98,7 +98,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 
 **Frequency-Adaptive Dilated Convolution for Semantic Segmentation**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
-*IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024. (**Highlight, top 2.8%**)  
+*IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024. (**CVPR Highlight, Acceptance rate 2.8%**, **[WOS citation, top 3.8%](./images/IJCV2023-segindark-WOS.png)**)  
 [[PDF]](https://arxiv.org/abs/2403.05369) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/719255929) [[Code]](https://github.com/Linwei-Chen/FADC) [[BibTeX]](./bibtex/fuying-2024-CVPR-chenlinwei.txt)
 
 </div>
@@ -120,7 +120,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 
 **Instance Segmentation in the Dark**  
 **Linwei Chen**, Ying Fu\*, Kaixuan Wei, Dezhi Zheng, Felix Heide.  
-*International Journal of Computer Vision (IJCV)*, 2023.  
+*International Journal of Computer Vision (IJCV)*, 2023. (**[WOS citation, top 3.8%](./images/IJCV2023-segindark-WOS.png)**)  
 [[PDF]](https://link.springer.com/article/10.1007/s11263-023-01808-8) [[Zhihu 知乎]](https://zhuanlan.zhihu.com/p/656570195) [[Code & Dataset]](https://github.com/Linwei-Chen/LIS/) [[BibTeX]](./bibtex/fuying-2023-IJCV-chenlinwei.txt)
 
 </div>
