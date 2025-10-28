@@ -134,7 +134,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 # 🎤 Invited Talks
 - *[2025.08.22]* "基于频域分析的视觉表征学习与场景理解" (Visual Representation Learning & Scene Understanding in the Frequency Domain), *CCF Forum on Machine Embodied Interaction Intelligence*. [[Slides](./pdf/基于频域分析的视觉表征学习与场景理解-v5.4-4.pdf)] [[Event](https://hhme.ccf.org.cn/forum10.html)]
 - *[2025.07.28]* "Frequency-aware Feature Fusion for Dense Image Prediction", *Invited Highlight Paper Speaker at the International Conference on Intelligent Computing (ICIC)*. [[Slides](./pdf/FreqFusion-ICIC_ENG.pdf)] [[Event](http.ic-icc.cn/2025/Highlight_Paper_Speakers.php)]
-- *[2025.05.10]* "从图像生成到CT图像增强应用" (From Image Generation to CT Image Enhancement Application), *1st Academic Conference on Innovative Development of Smart Health and Intelligent Healthcare (IDAC)*. [[Slides](./pdf/20250510-从图像生成到CT图像增强应用.pdf)] [[Event](https://idac2025.sciconf.cn/)]
+- *[2025.05.10]* "从图像生成到CT图像增强应用" (From Image Generation to CT Image Enhancement Application), *1st Academic Conference on Innovative Development of Smart Health and Intelligent Healthcare (IDAC)*. [[Slides](./pdf/从图像生成到CT图像增强应用.pdf)] [[Event](https://idac2025.sciconf.cn/)]
 
 <span class='anchor' id='-awards'></span>
 # 🏅 Awards and Honors
