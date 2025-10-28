@@ -55,8 +55,8 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Frequency-Dynamic Attention Modulation for Dense Prediction**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *International Conference on Computer Vision (ICCV)*, 2025.  
-*This paper introduces a novel, frequency-dynamic attention mechanism to enhance feature representation for dense prediction tasks.*
 [[PDF]](https://arxiv.org/abs/2507.12006) <a href='https://github.com/Linwei-Chen/FDAM'><img src="https://img.shields.io/github/stars/Linwei-Chen/FDAM?style=social" alt="Stars"></a> [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
+*This paper introduces a novel, frequency-dynamic attention mechanism to enhance feature representation for dense prediction tasks.*
 
 </div>
 </div>
@@ -68,7 +68,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 **Linwei Chen**, Ying Fu\*, Lin Gu, Dezhi Zheng, Jifeng Dai.  
 *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)*, 2025.  
 [[PDF]](https://arxiv.org/abs/2507.11893) [[IEEE]](https://ieeexplore.ieee.org/document/11095993) [[公众号]](https://mp.weixin.qq.com/s/Q50ViJ22Gikb3CfI_LDIFw) <a href='https://github.com/Linwei-Chen/SFM'><img src="https://img.shields.io/github/stars/Linwei-Chen/SFM?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/TPAMI2025-SFM.bib)
-*We propose a novel method to modulate features using spatial frequency information, achieving stronger representations for semantic segmentation.*
+*Proposing **Spatial Frequency Modulation (SFM)** to mitigate the degradation of high-frequency representations during widely-used downsampling.*
 
 </div>
 </div>
