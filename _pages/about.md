@@ -169,6 +169,8 @@ I am actively seeking positions in both academia and industry, starting in the F
 - International Journal of Computer Vision (IJCV)
 - ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
 - Pattern Recognition (PR)
+- Neurocomputing
+- Nature Scientific Reports
 
 ### Conference Reviewer
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023, 2024, 2025
