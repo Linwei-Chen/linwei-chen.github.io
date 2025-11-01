@@ -39,7 +39,6 @@ I am actively seeking positions in both academia and industry, starting in the F
 <span class='anchor' id='-cv'></span>
 **[Download my CV here](./_pages/Linwei_Chen_CV.pdf)**
 
-
 <span class='anchor' id='-news'></span>
 # 🔥 News
 - **[2025.10.18]** The core concept of our frequency-aware fusion was adopted by **WeaveSeg** for nuclei instance segmentation, accepted by the **International Conference on Computer Vision (ICCV) 2025**. [[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_WeaveSeg_Iterative_Contrast-weaving_and_Spectral_Feature-refining_for_Nuclei_Instance_Segmentation_ICCV_2025_paper.pdf)
