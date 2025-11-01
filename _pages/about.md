@@ -48,7 +48,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 
 - **[2025.06.18]** Our method, [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion), was successfully applied in **ModFusion** to enhance esophageal cancer segmentation, published in the journal **Knowledge-Based Systems (KBS)**. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0950705125009773)
 
-- **[2025.04.09]** Our method, [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion), was adopted by ACVLab in their solution for the NTIRE 2025 Reflection Removal Challenge (CVPR 2025 Workshop), which secured a top **2%** global ranking (6th/244). [[Event]](https://sites.google.com/view/acvlab) [[Tech Report]](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/supplemental/Yang_NTIRE_2025_Challenge_CVPRW_2025_supplemental.pdf)
+- **[2025.04.09]** Our method, [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion), was adopted by ACVLab in their solution for the NTIRE 2025 Reflection Removal Challenge (CVPR 2025 Workshop), which secured a top **2%** global ranking (6th/244) 🏆. [[Event]](https://sites.google.com/view/acvlab) [[Tech Report]](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/supplemental/Yang_NTIRE_2025_Challenge_CVPRW_2025_supplemental.pdf)
 
 <span class='anchor' id='-education'></span>
 
