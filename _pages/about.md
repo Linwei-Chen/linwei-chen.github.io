@@ -180,6 +180,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 - International Journal of Computer Vision (IJCV)
 - ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
 - Pattern Recognition (PR)
+- Information Sciences
 - Neurocomputing
 - Nature Scientific Reports
 
