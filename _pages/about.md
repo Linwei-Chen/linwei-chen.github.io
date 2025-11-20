@@ -41,6 +41,9 @@ I am actively seeking positions in both academia and industry, starting in the F
 
 <span class='anchor' id='-news'></span>
 # 🔥 News
+- **[2025.11.20]** Our paper, [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion), has been recognized as an **ESI Hot Paper (🔥top 0.1%)** and **Highly Cited Paper (🏆top 1%)**!
+
+- **[2025.10.18]** The core concept of our [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion) was adopted by **WeaveSeg** for nuclei instance segmentation, accepted by the **International Conference on Computer Vision (ICCV) 2025**. [[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_WeaveSeg_Iterative_Contrast-weaving_and_Spectral_Feature-refining_for_Nuclei_Instance_Segmentation_ICCV_2025_paper.pdf)
 
 - **[2025.10.18]** The core concept of our [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion) was adopted by **WeaveSeg** for nuclei instance segmentation, accepted by the **International Conference on Computer Vision (ICCV) 2025**. [[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_WeaveSeg_Iterative_Contrast-weaving_and_Spectral_Feature-refining_for_Nuclei_Instance_Segmentation_ICCV_2025_paper.pdf)
 
