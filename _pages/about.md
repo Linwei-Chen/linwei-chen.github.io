@@ -185,6 +185,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 - ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
 - Pattern Recognition (PR)
 - Information Sciences
+- Expert Systems With Applications
 - Neurocomputing
 - Nature Scientific Reports
 
