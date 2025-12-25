@@ -186,6 +186,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 - Pattern Recognition (PR)
 - Information Sciences
 - Expert Systems With Applications
+- Engineering Applications of Artificial Intelligence
 - Neurocomputing
 - Nature Scientific Reports
 
