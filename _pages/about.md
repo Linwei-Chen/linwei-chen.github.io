@@ -189,6 +189,7 @@ I am actively seeking positions in both academia and industry, starting in the F
 - Engineering Applications of Artificial Intelligence
 - Neurocomputing
 - Nature Scientific Reports
+- IEEE Sensors
 
 ### Conference Reviewer
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023, 2024, 2025
