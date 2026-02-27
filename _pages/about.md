@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+I am currently a Post-doc Fellow at <a href="https://www.hku.hk/">The University of Hong Kong (HKU)</a> and <a href="https://www.hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, affiliated with <a href="https://www.hkgai.ai/">Hong Kong Generative AI Center (HKGAI)</a>, supervised by Prof. <a href="https://i.cs.hku.hk/~yzyu/">Yizhou Yu</a>.
+
 I received my Ph.D. degree at the School of Information and Electronics & School of Computer Science and Technology, Beijing Institute of Technology (BIT), supervised by Prof. <a href="https://ying-fu.github.io/">Ying Fu</a>. 
 I am also fortunate to collaborate closely with <a href="https://zhouhy.org/">Hong-yu Zhou</a> and <a href="https://sites.google.com/view/linguedu/home">Lin Gu</a>. 
 I received my M.S. degree from BIT in 2021 and my B.S. degree from China University of Geosciences (Beijing) in 2019. 
