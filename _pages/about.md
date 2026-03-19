@@ -43,6 +43,10 @@ I am open for collaborations in research, especially in the fields of Image Unde
 <span class='anchor' id='-news'></span>
 # 🔥 News
 
+- **[2026.03]** Our paper, [**Fourier Angle Alignment (FAA)**](https://github.com/gcy0423/Fourier-Angle-Alignment), has been accepted by **CVPR 2026**! [[Paper]](https://arxiv.org/abs/2602.23790)
+
+- **[2026.03]** Our survey paper, [**A Survey on Degraded Image Segmentation**](https://github.com/Linwei-Chen/awesome-degraded-segmentation), has been accepted by **Chinese Journal of Electronics (CJE) 2026**! [[Project Page]](https://linwei-chen.github.io/awesome-degraded-segmentation/)
+
 - **[2025.11.20]** Our paper, [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion), has been recognized as an **ESI Hot Paper (🔥top 0.1%)** and **Highly Cited Paper (🏆top 1%)**!
 
 - **[2025.10.18]** The core concept of our [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion) was adopted by **WeaveSeg** for nuclei instance segmentation, accepted by the **International Conference on Computer Vision (ICCV) 2025**. [[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_WeaveSeg_Iterative_Contrast-weaving_and_Spectral_Feature-refining_for_Nuclei_Instance_Segmentation_ICCV_2025_paper.pdf)
@@ -66,13 +70,39 @@ I am open for collaborations in research, especially in the fields of Image Unde
 <span class='anchor' id='-publications'></span>
 # 📝 Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='./images/ICCV2025-FDAM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>CVPR 2026</div><img src='./images/CVPR2026-FAA.png' alt=”sym” width=”100%”></div></div>
+<div class='paper-box-text' markdown=”1”>
 
-**Frequency-Dynamic Attention Modulation for Dense Prediction**  
-**Linwei Chen**, Lin Gu, Ying Fu\*.  
-*International Conference on Computer Vision (ICCV)*, 2025.  
-[[PDF]](https://arxiv.org/abs/2507.12006) <a href='https://github.com/Linwei-Chen/FDAM'><img src="https://img.shields.io/github/stars/Linwei-Chen/FDAM?style=social" alt="Stars"></a> [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
+**Fourier Angle Alignment for Oriented Object Detection in Remote Sensing**
+Changyu Gu, **Linwei Chen**, Lin Gu, Ying Fu\*.
+*IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026.
+[[PDF]](https://arxiv.org/abs/2602.23790) <a href='https://github.com/gcy0423/Fourier-Angle-Alignment'><img src=”https://img.shields.io/github/stars/gcy0423/Fourier-Angle-Alignment?style=social” alt=”Stars”></a> [[BibTeX]](./bibtex/CVPR2026-FAA.bib)
+
+🛰️ *Introducing **Fourier Angle Alignment (FAA)** that leverages Fourier rotation equivariance to address directional incoherence and task conflict in oriented object detection, achieving state-of-the-art on DOTA benchmarks.*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>CJE 2026</div><img src='./images/CJE2026-degraded-survey.png' alt=”sym” width=”100%”></div></div>
+<div class='paper-box-text' markdown=”1”>
+
+**A Survey on Degraded Image Segmentation**
+**Linwei Chen**, Ying Fu\*, Jingyu Shangguan, Jinglin Xu, Yuxin Peng.
+*Chinese Journal of Electronics (CJE)*, 2026.
+[[PDF]](https://doi.org/10.23919/cje.2025.00.245) [[Project Page]](https://linwei-chen.github.io/awesome-degraded-segmentation/) <a href='https://github.com/Linwei-Chen/awesome-degraded-segmentation'><img src=”https://img.shields.io/github/stars/Linwei-Chen/awesome-degraded-segmentation?style=social” alt=”Stars”></a> [[BibTeX]](./bibtex/CJE2026-degraded-survey.bib)
+
+📖 *A comprehensive survey on degraded image segmentation covering adverse weather, low-light, digital artifacts, blur, and noise, systematically reviewing 135+ papers with a detailed taxonomy of domain adaptation, joint restoration-segmentation, and multi-modal fusion methods.*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>ICCV 2025</div><img src='./images/ICCV2025-FDAM.png' alt=”sym” width=”100%”></div></div>
+<div class='paper-box-text' markdown=”1”>
+
+**Frequency-Dynamic Attention Modulation for Dense Prediction**
+**Linwei Chen**, Lin Gu, Ying Fu\*.
+*International Conference on Computer Vision (ICCV)*, 2025.
+[[PDF]](https://arxiv.org/abs/2507.12006) <a href='https://github.com/Linwei-Chen/FDAM'><img src=”https://img.shields.io/github/stars/Linwei-Chen/FDAM?style=social” alt=”Stars”></a> [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
 
 🧐 *Revealing a “frequency vanishing” phenomenon in ViTs and introducing a frequency-dynamic attention mechanism that strengthens feature representations for dense prediction.*
 
