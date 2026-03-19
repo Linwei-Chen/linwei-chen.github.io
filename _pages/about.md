@@ -34,7 +34,7 @@ My research interests primarily lie in computer vision and deep learning, includ
 You can find my full publication list on my <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'>Google Scholar</a> profile.
 <!-- <a href='https://scholar.google.com/citations?user=EGlOtL4AAAAJ'><img src="https://img.shields.io/google-scholar/citations/EGlOtL4AAAAJ?style=flat&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&label=citations"></a>. -->
 
-I am open for collaborations in research, especially in the fields of Image Understanding, Representation Learning and Medical LLMs. Please don’t hesitate to get in touch if my research interests you.
+I am open for collaborations in research, especially in the fields of Image Understanding, Representation Learning and Medical LLMs. Please don't hesitate to get in touch if my research interests you.
 
 
 <span class='anchor' id='-cv'></span>
@@ -70,59 +70,59 @@ I am open for collaborations in research, especially in the fields of Image Unde
 <span class='anchor' id='-publications'></span>
 # 📝 Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>CVPR 2026</div><img src='./images/CVPR2026-FAA.png' alt=”sym” width=”100%”></div></div>
-<div class='paper-box-text' markdown=”1”>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='./images/CVPR2026-FAA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 **Fourier Angle Alignment for Oriented Object Detection in Remote Sensing**  
 Changyu Gu, **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2026.  
-[[PDF]](https://arxiv.org/abs/2602.23790) <a href='https://github.com/gcy0423/Fourier-Angle-Alignment'><img src=”https://img.shields.io/github/stars/gcy0423/Fourier-Angle-Alignment?style=social” alt=”Stars”></a> [[BibTeX]](./bibtex/CVPR2026-FAA.bib)
+[[PDF]](https://arxiv.org/abs/2602.23790) <a href='https://github.com/gcy0423/Fourier-Angle-Alignment'><img src="https://img.shields.io/github/stars/gcy0423/Fourier-Angle-Alignment?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/CVPR2026-FAA.bib)
 
 🛰️ *Introducing **Fourier Angle Alignment (FAA)** that leverages Fourier rotation equivariance to address directional incoherence and task conflict in oriented object detection, achieving state-of-the-art on DOTA benchmarks.*
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>CJE 2026</div><img src='./images/CJE2026-degraded-survey.png' alt=”sym” width=”100%”></div></div>
-<div class='paper-box-text' markdown=”1”>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CJE 2026</div><img src='./images/CJE2026-degraded-survey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 **A Survey on Degraded Image Segmentation**  
 **Linwei Chen**, Ying Fu\*, Jingyu Shangguan, Jinglin Xu, Yuxin Peng.  
 *Chinese Journal of Electronics (CJE)*, 2026.  
-[[PDF]](https://doi.org/10.23919/cje.2025.00.245) [[Project Page]](https://linwei-chen.github.io/awesome-degraded-segmentation/) <a href='https://github.com/Linwei-Chen/awesome-degraded-segmentation'><img src=”https://img.shields.io/github/stars/Linwei-Chen/awesome-degraded-segmentation?style=social” alt=”Stars”></a> [[BibTeX]](./bibtex/CJE2026-degraded-survey.bib)
+[[PDF]](https://doi.org/10.23919/cje.2025.00.245) [[Project Page]](https://linwei-chen.github.io/awesome-degraded-segmentation/) <a href='https://github.com/Linwei-Chen/awesome-degraded-segmentation'><img src="https://img.shields.io/github/stars/Linwei-Chen/awesome-degraded-segmentation?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/CJE2026-degraded-survey.bib)
 
 📖 *A comprehensive survey on degraded image segmentation covering adverse weather, low-light, digital artifacts, blur, and noise, systematically reviewing 135+ papers with a detailed taxonomy of domain adaptation, joint restoration-segmentation, and multi-modal fusion methods.*
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>ICCV 2025</div><img src='./images/ICCV2025-FDAM.png' alt=”sym” width=”100%”></div></div>
-<div class='paper-box-text' markdown=”1”>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='./images/ICCV2025-FDAM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 **Frequency-Dynamic Attention Modulation for Dense Prediction**  
 **Linwei Chen**, Lin Gu, Ying Fu\*.  
 *International Conference on Computer Vision (ICCV)*, 2025.  
-[[PDF]](https://arxiv.org/abs/2507.12006) <a href='https://github.com/Linwei-Chen/FDAM'><img src=”https://img.shields.io/github/stars/Linwei-Chen/FDAM?style=social” alt=”Stars”></a> [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
+[[PDF]](https://arxiv.org/abs/2507.12006) <a href='https://github.com/Linwei-Chen/FDAM'><img src="https://img.shields.io/github/stars/Linwei-Chen/FDAM?style=social" alt="Stars"></a> [[机器之心 Report]](https://mp.weixin.qq.com/s/eCN-0K5TQCX0nWA0CacWTQ) [[BibTeX]](./bibtex/ICCV2025-FDAM.bib)
 
-🧐 *Revealing a “frequency vanishing” phenomenon in ViTs and introducing a frequency-dynamic attention mechanism that strengthens feature representations for dense prediction.*
+🧐 *Revealing a "frequency vanishing" phenomenon in ViTs and introducing a frequency-dynamic attention mechanism that strengthens feature representations for dense prediction.*
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>ICCV 2025</div><img src='./images/ICCV2025-IHRUT.png' alt=”sym” width=”100%”></div></div>
-<div class='paper-box-text' markdown=”1”>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='./images/ICCV2025-IHRUT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 **Physical Degradation Model-Guided Interferometric Hyperspectral Reconstruction with Unfolding Transformer**  
 Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.  
 *International Conference on Computer Vision (ICCV)*, 2025.  
-[[PDF]](https://arxiv.org/abs/2506.21880) <a href='https://github.com/bit1120203554/IHRUT'><img src=”https://img.shields.io/github/stars/bit1120203554/IHRUT?style=social” alt=”Stars”></a> [[BibTeX]](./bibtex/ICCV2025-IHRUT.bib)
+[[PDF]](https://arxiv.org/abs/2506.21880) <a href='https://github.com/bit1120203554/IHRUT'><img src="https://img.shields.io/github/stars/bit1120203554/IHRUT?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/ICCV2025-IHRUT.bib)
 
 🔬 *Proposing **IHRUT**, an unfolding transformer for interferometric hyperspectral imaging reconstruction guided by a physical degradation model, achieving superior spectral correction and detail restoration.*
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>TPAMI 2025</div><img src='./images/TPAMI2025-SFM.png' alt=”sym” width=”100%”></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='./images/TPAMI2025-SFM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Spatial Frequency Modulation for Semantic Segmentation**  
@@ -214,7 +214,7 @@ Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
 
 <span class='anchor' id='-awards'></span>
 # 🏅 Awards and Honors
-- *2024* China National Scholarship for Doctoral Students, Ministry of Education of the People’s Republic of China 
+- *2024* China National Scholarship for Doctoral Students, Ministry of Education of the People's Republic of China 
 - *2024* CVPR 2024 PBDL International Challenge, Low-Light Track: **2nd Place** (Segmentation), **3rd Place** (Detection)
 - *2024* BMVC 2024 Outstanding Reviewer
 - *2022* Beijing Institute of Technology Doctoral Special Scholarship
