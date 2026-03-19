@@ -51,7 +51,7 @@ I am open for collaborations in research, especially in the fields of Image Unde
 
 - **[2025.10.18]** The core concept of our [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion) was adopted by **WeaveSeg** for nuclei instance segmentation, accepted by the **International Conference on Computer Vision (ICCV) 2025**. [[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_WeaveSeg_Iterative_Contrast-weaving_and_Spectral_Feature-refining_for_Nuclei_Instance_Segmentation_ICCV_2025_paper.pdf)
 
-- **[2025.10.18]** The core concept of our [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion) was adopted by **WeaveSeg** for nuclei instance segmentation, accepted by the **International Conference on Computer Vision (ICCV) 2025**. [[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_WeaveSeg_Iterative_Contrast-weaving_and_Spectral_Feature-refining_for_Nuclei_Instance_Segmentation_ICCV_2025_paper.pdf)
+- **[2025.10.18]** Our paper, [**IHRUT**](https://github.com/bit1120203554/IHRUT), has been accepted by **ICCV 2025**! [[Paper]](https://arxiv.org/abs/2506.21880)
 
 - **[2025.9.02]** [**FreqFusion**](https://github.com/Linwei-Chen/FreqFusion) was utilized as a core component for feature aggregation in a new diffusion-based framework for retinal image segmentation, accepted by IEEE Transactions on Medical Imaging (TMI). [[Paper]](https://ieeexplore.ieee.org/document/11146911)
 
@@ -109,7 +109,20 @@ Changyu Gu, **Linwei Chen**, Lin Gu, Ying Fu\*.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='./images/TPAMI2025-SFM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>ICCV 2025</div><img src='./images/ICCV2025-IHRUT.png' alt=”sym” width=”100%”></div></div>
+<div class='paper-box-text' markdown=”1”>
+
+**Physical Degradation Model-Guided Interferometric Hyperspectral Reconstruction with Unfolding Transformer**
+Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
+*International Conference on Computer Vision (ICCV)*, 2025.
+[[PDF]](https://arxiv.org/abs/2506.21880) <a href='https://github.com/bit1120203554/IHRUT'><img src=”https://img.shields.io/github/stars/bit1120203554/IHRUT?style=social” alt=”Stars”></a> [[BibTeX]](./bibtex/ICCV2025-IHRUT.bib)
+
+🔬 *Proposing **IHRUT**, an unfolding transformer for interferometric hyperspectral imaging reconstruction guided by a physical degradation model, achieving superior spectral correction and detail restoration.*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class=”badge”>TPAMI 2025</div><img src='./images/TPAMI2025-SFM.png' alt=”sym” width=”100%”></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Spatial Frequency Modulation for Semantic Segmentation**  
