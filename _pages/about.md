@@ -237,12 +237,12 @@ Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
 - IEEE Sensors
 
 ### Conference Reviewer
-- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023, 2024, 2025
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023, 2024, 2025, 2026
 - IEEE/CVF International Conference on Computer Vision (ICCV) 2025
-- European Conference on Computer Vision (ECCV) 2024
-- AAAI Conference on Artificial Intelligence (AAAI) 2025, 2026
-- Conference on Neural Information Processing Systems (NeurIPS) 2025, 2026
-- British Machine Vision Conference (BMVC) 2023, 2024, 2025
+- European Conference on Computer Vision (ECCV) 2024, 2026
+- AAAI Conference on Artificial Intelligence (AAAI) 2025, 2026, 2027
+- Conference on Neural Information Processing Systems (NeurIPS) 2025, 2026, 2027
+- British Machine Vision Conference (BMVC) 2023, 2024, 2025, 2026
 - ACM Multimedia Conference (MM) 2025
 - IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026
 
