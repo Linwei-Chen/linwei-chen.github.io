@@ -202,7 +202,6 @@ Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
 
 🌚 *Tackling the challenging task of instance segmentation in extreme low-light conditions by introducing a new dataset **Low-light Instance Segmentation (LIS)** and a learning framework again feature noise.*
 
-
 </div>
 </div>
 
@@ -224,6 +223,7 @@ Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
 # 💬 Professional Service
 
 ### Journal Reviewer
+
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 - IEEE Transactions on Image Processing (TIP)
 - International Journal of Computer Vision (IJCV)
@@ -238,6 +238,7 @@ Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
 - IEEE Sensors
 
 ### Conference Reviewer
+
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023, 2024, 2025, 2026
 - IEEE/CVF International Conference on Computer Vision (ICCV) 2025
 - European Conference on Computer Vision (ECCV) 2024, 2026
@@ -247,8 +248,14 @@ Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
 - ACM Multimedia Conference (MM) 2025
 - IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026
 
+### Guest Editor
+
+- [Journal of Imaging](https://www.mdpi.com/journal/jimaging/special_issues/PM9ADN1J2Y)
+
 <span class='anchor' id='-teaching'></span>
+
 # 🧑‍🏫 Teaching
+
 - Teaching Assistant, *Computer Vision*, Beijing Institute of Technology, 2021 - 2024 Fall.
 
 <span class='anchor' id='-patents'></span>
