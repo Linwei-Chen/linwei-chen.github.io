@@ -228,6 +228,7 @@ Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
 - IEEE Transactions on Image Processing (TIP)
 - International Journal of Computer Vision (IJCV)
 - ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)
+- Medical Image Analysis 
 - Pattern Recognition (PR)
 - Information Sciences
 - Expert Systems With Applications
