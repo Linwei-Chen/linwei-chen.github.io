@@ -28,7 +28,7 @@ author:
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=EGlOtL4AAAAJ&hl=zh-CN"
-  email            : "charleschen2013218@gmail.com"
+  email            : "chenlinwei.ai@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Linwei-Chen-5"
   uri              : 
   bitbucket        :
@@ -125,6 +125,12 @@ defaults:
       type: pages
     values:
       layout: default
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
       author_profile: true
 
 

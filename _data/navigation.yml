@@ -3,6 +3,10 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
+  - title: "Blog"
+    url: "/blog/"
+    highlight: true
+
   - title: "CV"
     url: "/#-cv"
   

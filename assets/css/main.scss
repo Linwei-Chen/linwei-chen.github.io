@@ -107,3 +107,27 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Blog navigation and featured external column */
+.greedy-nav .masthead__menu-item--highlight > a {
+    color: $link-color;
+    font-weight: 700;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--highlight > a:before {
+    background: $link-color;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+}
+
+.blog-featured-link {
+    margin: .5em 0 1.5em;
+    padding: .65em 1em;
+    border-left: 3px solid $link-color;
+    background: mix(#fff, $link-color, 94%);
+}
+
+.blog-featured-link strong {
+    margin-right: .75em;
+}
