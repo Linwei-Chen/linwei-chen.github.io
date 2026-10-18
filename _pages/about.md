@@ -43,6 +43,8 @@ I am open for collaborations in research, especially in the fields of Image Unde
 <span class='anchor' id='-news'></span>
 # 🔥 News
 
+- **[2026.06]** Honored to receive the **[CVPR 2026 Outstanding Reviewer Award](./pdf/cvpr2026-certificate.pdf)**! 🏅
+
 - **[2026.03]** Our paper, [**Fourier Angle Alignment (FAA)**](https://github.com/gcy0423/Fourier-Angle-Alignment), has been accepted by **CVPR 2026**! [[Paper]](https://arxiv.org/abs/2602.23790)
 
 - **[2026.03]** Our survey paper, [**A Survey on Degraded Image Segmentation**](https://github.com/Linwei-Chen/awesome-degraded-segmentation), has been accepted by **Chinese Journal of Electronics (CJE) 2026**! [[Project Page]](https://linwei-chen.github.io/awesome-degraded-segmentation/)
@@ -214,6 +216,7 @@ Yuansheng Li, Yunhao Zou, **Linwei Chen**, Ying Fu\*.
 
 <span class='anchor' id='-awards'></span>
 # 🏅 Awards and Honors
+- *2026* CVPR 2026 Outstanding Reviewer [[Certificate]](./pdf/cvpr2026-certificate.pdf)
 - *2024* China National Scholarship for Doctoral Students, Ministry of Education of the People's Republic of China 
 - *2024* CVPR 2024 PBDL International Challenge, Low-Light Track: **2nd Place** (Segmentation), **3rd Place** (Detection)
 - *2024* BMVC 2024 Outstanding Reviewer
