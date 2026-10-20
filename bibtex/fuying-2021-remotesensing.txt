@@ -4,7 +4,7 @@
   journal={Remote Sensing},
   volume={13},
   number={2},
-  pages={252--273},
+  pages={252},
   year={2021},
   publisher={Multidisciplinary Digital Publishing Institute}
 }

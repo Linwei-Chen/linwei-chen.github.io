@@ -2,6 +2,7 @@
   author={Fu, Ying and Fang, Zheng and Chen, Linwei and Song, Tao and Lin, Defu},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Level-Aware Consistent Multi-level Map Translation From Satellite Imagery}, 
-  year={2022},
-  pages={1-14},
+  year={2023},
+  volume={61},
+  pages={1--14},
   doi={10.1109/TGRS.2022.3220423}}
