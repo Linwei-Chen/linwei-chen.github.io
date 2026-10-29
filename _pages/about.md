@@ -43,6 +43,8 @@ I am open for collaborations in research, especially in the fields of Image Unde
 <span class='anchor' id='-news'></span>
 # 🔥 News
 
+- **[2026.10]** Our paper, [**The accuracy-safety trade-off of large reasoning models in clinical diagnostics**](https://www.nature.com/articles/s41467-026-78520-x), has been published in **Nature Communications**! I contribute as a **co-first author** (2nd). 🎉 [[Paper]](https://www.nature.com/articles/s41467-026-78520-x) [[Code]](https://github.com/HandsomeWuuu/MedLDR)
+
 - **[2026.06]** Honored to receive the **[CVPR 2026 Outstanding Reviewer Award](./pdf/cvpr2026-certificate.pdf)**! 🏅
 
 - **[2026.03]** Our paper, [**Fourier Angle Alignment (FAA)**](https://github.com/gcy0423/Fourier-Angle-Alignment), has been accepted by **CVPR 2026**! [[Paper]](https://arxiv.org/abs/2602.23790)
@@ -71,6 +73,20 @@ I am open for collaborations in research, especially in the fields of Image Unde
 
 <span class='anchor' id='-publications'></span>
 # 📝 Selected Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Commun. 2026</div><img src='./images/NCOMMS2026-MedLDR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**The accuracy-safety trade-off of large reasoning models in clinical diagnostics**  
+Shuai Wu, **Linwei Chen**, Yunxiang Fu, Xiaoman Zhang, Luyang Luo, Meng Lou, Yangxi Huang, Guanhua Chen, Ying Fu, Ya Xing Wang, Qian Di, Yuyin Zhou, Xiang Li, Tien Yin Wong\*, Yizhou Yu\*, Hong-Yu Zhou\*.  
+*Nature Communications*, 2026.  
+(**<span style="color:red">Co-first Author</span>**)  
+[[PDF]](https://www.nature.com/articles/s41467-026-78520-x) [[Code]](https://github.com/HandsomeWuuu/MedLDR) <a href='https://github.com/HandsomeWuuu/MedLDR'><img src="https://img.shields.io/github/stars/HandsomeWuuu/MedLDR?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/NCOMMS2026-MedLDR.bib)
+
+🩺 *Revealing an accuracy-safety trade-off of large reasoning models (LRMs) in clinical diagnostics on the AIMS-LDR benchmark: LRMs make more accurate primary diagnoses yet generate 34% more false positives with 40% lower reproducibility than standard LLMs. A clinician-in-the-loop collaboration model increases diagnostic accuracy by 20% and reduces false positives by 44%.*
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='./images/CVPR2026-FAA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
