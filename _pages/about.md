@@ -43,7 +43,7 @@ I am open for collaborations in research, especially in the fields of Image Unde
 <span class='anchor' id='-news'></span>
 # 🔥 News
 
-- **[2026.10]** Our paper, [**The accuracy-safety trade-off of large reasoning models in clinical diagnostics**](https://www.nature.com/articles/s41467-026-78520-x), has been published in **Nature Communications**! I contribute as a **co-first author** (2nd). 🎉 [[Paper]](https://www.nature.com/articles/s41467-026-78520-x) [[Code]](https://github.com/HandsomeWuuu/MedLDR)
+- **[2026.10]** Our paper, [**The accuracy-safety trade-off of large reasoning models in clinical diagnostics**](https://www.nature.com/articles/s41467-026-78520-x), has been published in **Nature Communications**! 🎉 [[Paper]](https://www.nature.com/articles/s41467-026-78520-x) [[Code]](https://github.com/HandsomeWuuu/MedLDR)
 
 - **[2026.06]** Honored to receive the **[CVPR 2026 Outstanding Reviewer Award](./pdf/cvpr2026-certificate.pdf)**! 🏅
 
