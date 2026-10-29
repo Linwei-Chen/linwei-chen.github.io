@@ -78,9 +78,8 @@ I am open for collaborations in research, especially in the fields of Image Unde
 <div class='paper-box-text' markdown="1">
 
 **The accuracy-safety trade-off of large reasoning models in clinical diagnostics**  
-Shuai Wu, **Linwei Chen**, Yunxiang Fu, Xiaoman Zhang, Luyang Luo, Meng Lou, Yangxi Huang, Guanhua Chen, Ying Fu, Ya Xing Wang, Qian Di, Yuyin Zhou, Xiang Li, Tien Yin Wong\*, Yizhou Yu\*, Hong-Yu Zhou\*.  
+Shuai Wu<sup>†</sup>, **Linwei Chen**<sup>†</sup> (Co-first Author), Yunxiang Fu, Xiaoman Zhang, Luyang Luo, Meng Lou, Yangxi Huang, Guanhua Chen, Ying Fu, Ya Xing Wang, Qian Di, Yuyin Zhou, Xiang Li, Tien Yin Wong\*, Yizhou Yu\*, Hong-Yu Zhou\*.  
 *Nature Communications*, 2026.  
-(**<span style="color:red">Co-first Author</span>**)  
 [[PDF]](https://www.nature.com/articles/s41467-026-78520-x) [[Code]](https://github.com/HandsomeWuuu/MedLDR) <a href='https://github.com/HandsomeWuuu/MedLDR'><img src="https://img.shields.io/github/stars/HandsomeWuuu/MedLDR?style=social" alt="Stars"></a> [[BibTeX]](./bibtex/NCOMMS2026-MedLDR.bib)
 
 🩺 *Revealing an accuracy-safety trade-off of large reasoning models (LRMs) in clinical diagnostics on the AIMS-LDR benchmark: LRMs make more accurate primary diagnoses yet generate 34% more false positives with 40% lower reproducibility than standard LLMs. A clinician-in-the-loop collaboration model increases diagnostic accuracy by 20% and reduces false positives by 44%.*
